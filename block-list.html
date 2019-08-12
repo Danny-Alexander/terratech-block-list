@@ -112,7 +112,7 @@
 				responsive: true,
 
 				// Make rows selectable
-				select: true,
+				// select: true,
 
 				// Enable buttons to copy and export data
 				buttons: [
@@ -186,25 +186,24 @@
 			// 	// Toggle the visibility
 			// 	column.visible(!column.visible());
 			// });
-		});
 
+			// Add event listener for opening and closing details
+			$('#blocks-table tbody').on('click', 'td.details-control', function () {
+				var tr = $(this).closest('tr');
+				var row = table.row(tr);
 
+				if (row.child.isShown()) {
+					// This row is already open - close it
+					row.child.hide();
+					tr.find('svg').attr('data-icon', 'plus-circle');    // FontAwesome 5
+				}
+				else {
+					// Open this row
+					row.child(format(row.data())).show();
+					tr.find('svg').attr('data-icon', 'minus-circle'); // FontAwesome 5
+				}
+			});
 
-		// Add event listener for opening and closing details
-		$('#example tbody').on('click', 'td.details-control', function () {
-			var tr = $(this).closest('tr');
-			var row = table.row(tr);
-
-			if (row.child.isShown()) {
-				// This row is already open - close it
-				row.child.hide();
-				tr.find('svg').attr('data-icon', 'plus-circle');    // FontAwesome 5
-			}
-			else {
-				// Open this row
-				row.child(format(row.data())).show();
-				tr.find('svg').attr('data-icon', 'minus-circle'); // FontAwesome 5
-			}
 		});
 	</script>
 </body>
