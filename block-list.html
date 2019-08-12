@@ -95,15 +95,8 @@
 				// Allow changing the column order
 				colReorder: true,
 
-				// rowGroup: {
-				// 	dataSrc: 'category'
-				// },
-
 				// Enable optimising the table's layout for different screen sizes https://datatables.net/extensions/responsive/
 				responsive: true,
-
-				// Make rows selectable
-				// select: true,
 
 				// Enable buttons to copy and export data
 				buttons: [
@@ -117,6 +110,7 @@
 
 				// The JSON data to display
 				"ajax": "https://api.myjson.com/bins/1231z1",
+
 				// Correlate data elements to columns define above (order specific)
 				"columns": [
 					{
@@ -167,16 +161,6 @@
 					}
 				]
 			});
-
-			// $('a.toggle-vis').on('click', function (e) {
-			// 	e.preventDefault();
-
-			// 	// Get the column API object
-			// 	var column = table.column($(this).attr('data-column'));
-
-			// 	// Toggle the visibility
-			// 	column.visible(!column.visible());
-			// });
 
 			// Add event listener for opening and closing details
 			$('#blocks-table tbody').on('click', 'td.details-control', function () {
