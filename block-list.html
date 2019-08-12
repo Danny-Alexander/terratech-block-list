@@ -29,6 +29,7 @@
 		<table id="blocks-table" class="display" style="width:100%">
 			<thead>
 				<tr>
+					<th></th>
 					<th>Name</th>
 					<th>Category</th>
 					<th>Corp</th>
@@ -41,6 +42,7 @@
 			</thead>
 			<tfoot>
 				<tr>
+					<th></th>
 					<th>Name</th>
 					<th>Category</th>
 					<th>Corp</th>
@@ -54,6 +56,30 @@
 		</table>
 	</div>
 	<script>
+
+		/* Formatting function for row details */
+		function format ( d ) {
+			// `d` is the original data object for the row
+			return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
+				'<tr>'+
+					'<td>Description:</td>'+
+					'<td>'+d.description+'</td>'+
+				'</tr>'+
+				'<tr>'+
+					'<td>ID:</td>'+
+					'<td>'+d.id+'</td>'+
+				'</tr>'+
+				'<tr>'+
+					'<td>Resource name:</td>'+
+					'<td>'+d.resource_name+'</td>'+
+				'</tr>'+
+				'<tr>'+
+					'<td>Enum ID:</td>'+
+					'<td>'+d.enum_id+'</td>'+
+				'</tr>'+
+			'</table>';
+		}
+
 		$(document).ready(function () {
 			var table = $('#blocks-table').DataTable({
 				processing: true,
@@ -85,6 +111,12 @@
 				"ajax": "https://api.myjson.com/bins/1231z1",
 				// Correlate data elements to columns define above (order specific)
 				"columns": [
+					{
+						"className":      'details-control',
+						"orderable":      false,
+						"data":           null,
+						"defaultContent": ''
+					},
 					{ "data": "block" },
 					{ "data": "category" },
 					{ "data": "corp" },
@@ -134,6 +166,25 @@
 			// 	column.visible(!column.visible());
 			// });
 		});
+
+		
+
+		// Add event listener for opening and closing details
+		$('#example tbody').on('click', 'td.details-control', function () {
+			var tr = $(this).closest('tr');
+			var row = table.row( tr );
+	
+			if ( row.child.isShown() ) {
+				// This row is already open - close it
+				row.child.hide();
+				tr.removeClass('shown');
+			}
+			else {
+				// Open this row
+				row.child( format(row.data()) ).show();
+				tr.addClass('shown');
+			}
+		} );
 	</script>
 </body>
 
