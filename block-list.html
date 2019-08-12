@@ -19,6 +19,23 @@
 
 	<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/dataTables.foundation.min.js"></script>
 
+	<!-- Font-awesome for + and - child details buttons -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- Colouring for child details button -->
+	<style>
+		td.details-control {
+			text-align: center;
+			color: forestgreen;
+			cursor: pointer;
+		}
+
+		tr.shown td.details-control {
+			text-align: center;
+			color: red;
+		}
+	</style>
+
 	<!-- Dunno what effect removing this would have on other platforms so I didn't (I wanted to though) -->
 	<meta charset=utf-8 />
 
@@ -112,10 +129,14 @@
 				// Correlate data elements to columns define above (order specific)
 				"columns": [
 					{
-						"className":      'details-control',
-						"orderable":      false,
-						"data":           null,
-						"defaultContent": ''
+						"className": 'details-control',
+						"orderable": false,
+						"data": null,
+						"defaultContent": '',
+						"render": function () {
+							return '<i class="fa fa-plus-square" aria-hidden="true"></i>';
+						},
+						width: "15px"
 					},
 					{ "data": "block" },
 					{ "data": "category" },
@@ -167,24 +188,24 @@
 			// });
 		});
 
-		
+
 
 		// Add event listener for opening and closing details
 		$('#example tbody').on('click', 'td.details-control', function () {
 			var tr = $(this).closest('tr');
-			var row = table.row( tr );
-	
-			if ( row.child.isShown() ) {
+			var row = table.row(tr);
+
+			if (row.child.isShown()) {
 				// This row is already open - close it
 				row.child.hide();
-				tr.removeClass('shown');
+				tr.find('svg').attr('data-icon', 'plus-circle');    // FontAwesome 5
 			}
 			else {
 				// Open this row
-				row.child( format(row.data()) ).show();
-				tr.addClass('shown');
+				row.child(format(row.data())).show();
+				tr.find('svg').attr('data-icon', 'minus-circle'); // FontAwesome 5
 			}
-		} );
+		});
 	</script>
 </body>
 
