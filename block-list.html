@@ -89,6 +89,14 @@
 		}
 
 		$(document).ready(function () {
+
+			// Add filter text input to each column
+			$('#blocks-table tfoot th').each( function () {
+				// var title = $(this).text();
+				// $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+				$(this).html( '<input type="text"/>' );
+			} );
+
 			var table = $('#blocks-table').DataTable({
 				processing: true,
 
