@@ -193,6 +193,20 @@
 				}
 			});
 
+			// Add event listener for column filter change
+			table.columns().every( function () {
+				var thisColumn = this;
+				
+				$( 'input', this.footer() ).on( 'keyup change clear', function () {
+					// Apply the filter when it changes
+					if ( thisColumn.search() !== this.value ) {
+						thisColumn
+							.search( this.value )
+							.draw();
+					}
+				} );
+			} );
+
 		});
 	</script>
 </body>
