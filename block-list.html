@@ -154,8 +154,8 @@
 					{
 						"data": "description",
 						"render": function (data, type, row, meta) {
-							return type === 'display' && data.length > 30 ?
-								'<span title="' + data + '">' + data.substr(0, 28) + '...</span>' :
+							return type === 'display' && data.length > 12 ?
+								'<span title="' + data + '">' + data.substr(0, 10) + '...</span>' :
 								data;
 						}
 					}
