@@ -165,17 +165,23 @@
 			// Add event listener for opening and closing details
 			$('#blocks-table tbody').on('click', 'td.details-control', function () {
 				var tr = $(this).closest('tr');
+				var tdi = tr.find("i.fa");
 				var row = table.row(tr);
+
+				// Toggle details icon image
+				tdi.toggleClass('fa-minus-square');
+				tdi.toggleClass('fa-plus-square');
+
+				// Toggle details icon colour
+				tr.toggleClass('shown')
 
 				if (row.child.isShown()) {
 					// This row is already open - close it
 					row.child.hide();
-					tr.find('svg').attr('data-icon', 'plus-circle');    // FontAwesome 5
 				}
 				else {
 					// Open this row
 					row.child(format(row.data())).show();
-					tr.find('svg').attr('data-icon', 'minus-circle'); // FontAwesome 5
 				}
 			});
 
