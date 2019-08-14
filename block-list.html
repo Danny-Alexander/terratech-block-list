@@ -90,11 +90,11 @@
 
 		$(document).ready(function () {
 
-			// Add filter text input to each column
+			// Add filter text input to each non-blank column
 			$('#blocks-table tfoot th').each( function () {
-				// var title = $(this).text();
-				// $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
-				$(this).html( '<input type="text"/>' );
+				if ($(this).text()) {
+					$(this).html( '<input type="text"/>' );
+				}
 			} );
 
 			var table = $('#blocks-table').DataTable({
