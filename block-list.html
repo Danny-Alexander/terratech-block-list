@@ -201,7 +201,7 @@
 					// Apply the filter when it changes
 					if ( thisColumn.search() !== this.value ) {
 						thisColumn
-							.search( this.value )
+							.search( this.value, true )
 							.draw();
 					}
 				} );
