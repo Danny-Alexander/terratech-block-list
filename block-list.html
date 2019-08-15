@@ -33,6 +33,16 @@
 </head>
 
 <body>
+	<div style="width:100%">
+		<table>
+			<th id=globalSearch></th>
+			<th></th>
+			<th><h3 style="display: inline;">TerraTech Blocks List  </h3> <a>v0.1.3</a></th>
+			<th></th>
+			<th></th>
+		</table>
+		<!-- <div><h3>TerraTech Blocks List</h3><a>v0.1.3</a></div> -->
+	</div>
 	<div class="container">
 		<table id="blocks-table" class="display" style="width:100%">
 			<thead>
@@ -90,7 +100,7 @@
 
 		$(document).ready(function () {
 
-			// Add filter text input to each non-blank column
+			// Add search text input to each non-blank column
 			$('#blocks-table tfoot th').each( function () {
 				if ($(this).text()) {
 					var title = $(this).text();
@@ -210,12 +220,12 @@
 				}
 			});
 
-			// Add event listener for column filter change
+			// Add event listener for column search change
 			table.columns().every( function () {
 				var thisColumn = this;
 				
 				$( 'input', this.footer() ).on( 'keyup change clear', function () {
-					// Apply the filter when input value changes
+					// Apply the search when input value changes
 					if ( thisColumn.search() !== this.value ) {
 						thisColumn
 							.search( this.value, true )
