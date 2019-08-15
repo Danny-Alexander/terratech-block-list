@@ -6,7 +6,7 @@ A project to format and display mod-exported block properties for TerraTech game
 
 ## Links
 
-### [Block List 0.1.3](https://danny-alexander.github.io/terratech-block-list/block-list.html)
+### [Block List 0.1.4](https://danny-alexander.github.io/terratech-block-list/block-list.html)
 
 The latest release
 
