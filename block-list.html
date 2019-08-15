@@ -35,7 +35,7 @@
 <body>
 	<div style="width:100%">
 		<table>
-			<th id=globalSearch></th>
+			<th id=headingFilter></th>
 			<th></th>
 			<th><h3 style="display: inline;">TerraTech Blocks List  </h3> <a>v0.1.3</a></th>
 			<th></th>
@@ -194,6 +194,7 @@
 
 					// Set global search placeholder
 					$('#blocks-table_filter label input').attr('placeholder', 'Search everything');
+					$('#blocks-table_filter').appendTo($('#headingFilter'));
 				},
 			});
 
