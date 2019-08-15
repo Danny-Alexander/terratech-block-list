@@ -93,7 +93,8 @@
 			// Add filter text input to each non-blank column
 			$('#blocks-table tfoot th').each( function () {
 				if ($(this).text()) {
-					$(this).html( '<input type="text"/>' );
+					var title = $(this).text();
+					$(this).html( '<input type="text" placeholder="Search '+title+'" />' );
 				}
 			} );
 
