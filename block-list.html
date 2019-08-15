@@ -99,6 +99,10 @@
 			} );
 
 			var table = $('#blocks-table').DataTable({
+
+				// The JSON data to display
+				ajax: "https://api.myjson.com/bins/1231z1",
+
 				processing: true,
 
 				// Allow changing the column order
@@ -117,11 +121,8 @@
 				// Also determines the page layout: https://datatables.net/reference/option/dom
 				dom: 'flBrtip',
 
-				// The JSON data to display
-				"ajax": "https://api.myjson.com/bins/1231z1",
-
 				// Correlate data elements to columns define above (order specific)
-				"columns": [
+				columns: [
 					{
 						"className": 'details-control',
 						"orderable": false,
