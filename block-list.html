@@ -115,7 +115,7 @@
 
 				// Display buttons with filter control (search). 
 				// Also determines the page layout: https://datatables.net/reference/option/dom
-				dom: 'lfBrtip',
+				dom: 'flBrtip',
 
 				// The JSON data to display
 				"ajax": "https://api.myjson.com/bins/1231z1",
@@ -169,7 +169,10 @@
 						}
 					}
 				],
+
+				// Format search boxes
 				initComplete: function () {
+					// Format and move individual column search inputs before table header
 					var r = $('#blocks-table tfoot tr');
 					r.find('th').each(function () {
 						$(this).css('padding', 8);
@@ -178,6 +181,9 @@
 						$(this).css('margin', 0);
 					});
 					$('#blocks-table thead').prepend(r);
+
+					// Set global search placeholder
+					$('#blocks-table_filter label input').attr('placeholder', 'Search everything');
 				},
 			});
 
