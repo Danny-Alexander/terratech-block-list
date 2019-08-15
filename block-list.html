@@ -167,7 +167,17 @@
 								data;
 						}
 					}
-				]
+				],
+				initComplete: function () {
+					var r = $('#blocks-table tfoot tr');
+					r.find('th').each(function () {
+						$(this).css('padding', 8);
+					});
+					r.find('th input').each(function () {
+						$(this).css('margin', 0);
+					});
+					$('#blocks-table thead').prepend(r);
+				},
 			});
 
 			// Add event listener for opening and closing details
@@ -198,7 +208,7 @@
 				var thisColumn = this;
 				
 				$( 'input', this.footer() ).on( 'keyup change clear', function () {
-					// Apply the filter when it changes
+					// Apply the filter when input value changes
 					if ( thisColumn.search() !== this.value ) {
 						thisColumn
 							.search( this.value, true )
