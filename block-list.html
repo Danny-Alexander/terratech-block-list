@@ -89,6 +89,15 @@
 		}
 
 		$(document).ready(function () {
+
+			// Add filter text input to each non-blank column
+			$('#blocks-table tfoot th').each( function () {
+				if ($(this).text()) {
+					var title = $(this).text();
+					$(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+				}
+			} );
+
 			var table = $('#blocks-table').DataTable({
 				processing: true,
 
@@ -106,7 +115,7 @@
 
 				// Display buttons with filter control (search). 
 				// Also determines the page layout: https://datatables.net/reference/option/dom
-				dom: 'lfBrtip',
+				dom: 'flBrtip',
 
 				// The JSON data to display
 				"ajax": "https://api.myjson.com/bins/1231z1",
@@ -159,7 +168,23 @@
 								data;
 						}
 					}
-				]
+				],
+
+				// Format search boxes
+				initComplete: function () {
+					// Format and move individual column search inputs before table header
+					var r = $('#blocks-table tfoot tr');
+					r.find('th').each(function () {
+						$(this).css('padding', 8);
+					});
+					r.find('th input').each(function () {
+						$(this).css('margin', 0);
+					});
+					$('#blocks-table thead').prepend(r);
+
+					// Set global search placeholder
+					$('#blocks-table_filter label input').attr('placeholder', 'Search everything');
+				},
 			});
 
 			// Add event listener for opening and closing details
@@ -184,6 +209,20 @@
 					row.child(format(row.data())).show();
 				}
 			});
+
+			// Add event listener for column filter change
+			table.columns().every( function () {
+				var thisColumn = this;
+				
+				$( 'input', this.footer() ).on( 'keyup change clear', function () {
+					// Apply the filter when input value changes
+					if ( thisColumn.search() !== this.value ) {
+						thisColumn
+							.search( this.value, true )
+							.draw();
+					}
+				} );
+			} );
 
 		});
 	</script>
