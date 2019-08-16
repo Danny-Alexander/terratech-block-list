@@ -28,13 +28,13 @@ Using javascript regular expressions.
 
 ![IndividualColumnSearch-v0.1.4.PNG](docs/images/IndividualColumnSearch-v0.1.4.PNG)
 
-Separate (OR) alternative matches with ```|``` e.g ```gso|geo``` to show only GSO or GeoCorp blocks.
-
-![SearchExample-DualCorp-v0.1.4.PNG](docs/images/SearchExample-DualCorp-v0.1.4.PNG)
-
 Display only standard blocks.
 
 ![SearchExample-StandardBlocks-v0.1.4.PNG](docs/images/SearchExample-StandardBlocks-v0.1.4.PNG)
+
+Separate (OR) alternative matches with ```|``` e.g ```gso|geo``` to show only GSO or GeoCorp blocks.
+
+![SearchExample-DualCorp-v0.1.4.PNG](docs/images/SearchExample-DualCorp-v0.1.4.PNG)
 
 Blocks in Wheel blocks that don't have ```track``` or ```wheel``` in their name.
 I [looked this one up](https://stackoverflow.com/questions/6449131/javascript-regular-expression-to-not-match-a-word): ```^((?!(track|wheel)).)*$```
