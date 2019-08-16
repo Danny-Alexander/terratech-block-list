@@ -28,6 +28,8 @@ Using javascript regular expressions.
 
 ![IndividualColumnSearch-v0.1.4.PNG](docs/images/IndividualColumnSearch-v0.1.4.PNG)
 
+##### Examples
+
 Display only standard blocks.
 
 ![SearchExample-StandardBlocks-v0.1.4.PNG](docs/images/SearchExample-StandardBlocks-v0.1.4.PNG)
