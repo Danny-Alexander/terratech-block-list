@@ -38,7 +38,7 @@ Separate (OR) alternative matches with ```|``` e.g ```gso|geo``` to show only GS
 
 ![SearchExample-DualCorp-v0.1.4.PNG](docs/images/SearchExample-DualCorp-v0.1.4.PNG)
 
-Blocks in Wheel blocks that don't have ```track``` or ```wheel``` in their name.
+Wheel type blocks that don't have ```track``` or ```wheel``` in their name.
 I [looked this one up](https://stackoverflow.com/questions/6449131/javascript-regular-expression-to-not-match-a-word): ```^((?!(track|wheel)).)*$```
 
 ![SearchExample-NotRegex-v0.1.4.PNG](docs/images/SearchExample-NotRegex-v0.1.4.PNG)
