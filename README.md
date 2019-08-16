@@ -43,6 +43,14 @@ I [looked this one up](https://stackoverflow.com/questions/6449131/javascript-re
 
 ![SearchExample-NotRegex-v0.1.4.PNG](docs/images/SearchExample-NotRegex-v0.1.4.PNG)
 
+#### Specify how many rows to display.
+
+![SelectTableLength-v0.1.4.PNG](docs/images/SelectTableLength-v0.1.4.PNG)
+
+#### Save or copy the data (e.g into a spreadsheet).
+
+![CopyOrExportData-v0.1.4.PNG](docs/images/CopyOrExportData-v0.1.4.PNG)
+
 ## Planned features
 
 ### Recipe and raw cost columns
