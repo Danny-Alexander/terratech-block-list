@@ -1,5 +1,8 @@
 :: Starts python web server to serve parent directory on specified port
+::     Open page with address: http://localhost:8000
+::
 ::     See also https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
+::
 cd ..
 py -m http.server 8000
 
