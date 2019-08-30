@@ -2,7 +2,7 @@
 
 Browser based table to display up-to-date and accurate (mod-exported) properties for blocks in TerraTech game.
 
-Latest Release: [Block List v0.1.4](https://danny-alexander.github.io/terratech-block-list/block-list.html)
+Latest Release: [Block List v0.1.5](https://danny-alexander.github.io/terratech-block-list/block-list.html)
 
 ## Current features
 
