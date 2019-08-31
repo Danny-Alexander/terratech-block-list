@@ -120,6 +120,9 @@
 
 			var table = $('#blocks-table').DataTable({
 
+				// Data is loaded by version dropdown change event
+				ajax: '',
+
 				processing: true,
 
 				// Allow changing the column order
@@ -192,6 +195,12 @@
 						}
 					}
 				]
+			});
+
+			// Add event listener for opening and closing details
+			$('#version-dropdown').on('change', function () {
+				// Change the data source to the blocks.json for new version and refresh
+				table.ajax.url($(this).val()).load();
 			});
 
 			// Add event listener for opening and closing details
