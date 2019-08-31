@@ -2,5 +2,13 @@
 	{
 		"name": "1.3.1.1",
 		"branch": "TT_Unstable"
+	},
+	{
+		"name": "1.3.1.2",
+		"branch": "TT_Unstable"
+	},
+	{
+		"name": "1.3.1.3",
+		"branch": "TT_Unstable"
 	}
 ]
