@@ -17,8 +17,6 @@ function populateVersionDropdown() {
         // Select first version by default
         if (data.length > 0) {
             data[0].select = true;
-            globalTableDataSource = versionNameToDataSource(data[0].name);
-            // console.log('globalTableDataSource: ' + globalTableDataSource);
         };
         $.each(data, function (key, v) {
             dropdown.append($('<option' + (v.select ? ' selected' : '') + '></option>')
@@ -26,7 +24,4 @@ function populateVersionDropdown() {
                 .text(v.name));
         })
     });
-    
-    // console.log('globalTableDataSource: ' + globalTableDataSource);
-    return globalTableDataSource
 }
