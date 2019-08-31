@@ -19,5 +19,7 @@ function populateVersionDropdown() {
                 .attr('value', versionNameToDataSource(v.name))
                 .text(v.name));
         })
+        // Let the rest of the page know the selected version changed
+        dropdown.trigger('change');
     });
 }
