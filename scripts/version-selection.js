@@ -14,12 +14,8 @@ function populateVersionDropdown() {
     // Populate dropdown with list of TerraTech versions
     $.getJSON(dataSource, function (data) {
         // ToDo: Parse data and flag which version should be selected by default.
-        // Select first version by default
-        if (data.length > 0) {
-            data[0].select = true;
-        };
         $.each(data, function (key, v) {
-            dropdown.append($('<option' + (v.select ? ' selected' : '') + '></option>')
+            dropdown.append($('<option></option>')
                 .attr('value', versionNameToDataSource(v.name))
                 .text(v.name));
         })
