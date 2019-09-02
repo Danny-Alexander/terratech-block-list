@@ -1,20 +1,26 @@
 
 function displayLocalisedNumber(data, type, row, meta) {
-    return type === 'display' ?
-        data.toLocaleString() :
-        data;
+    return data == undefined ?
+        '' :
+        type === 'display' ?
+            data.toLocaleString() :
+            data;
 }
 
 function displayLocalisedPrice(data, type, row, meta) {
-    return type === 'display' ?
-        data.toLocaleString() + ' ฿฿' :
-        data;
+    return data == undefined ?
+        '' :
+        type === 'display' ?
+            data.toLocaleString() + ' ฿฿' :
+            data;
 }
 
 function displayShortenedTextAndTooltip(data, type, row, meta) {
-    return type === 'display' && data.length > 12 ?
-        '<span title="' + data + '">' + data.substr(0, 10) + '...</span>' :
-        data;
+    return data == undefined ?
+        '' :
+        type === 'display' && data.length > 12 ?
+            '<span title="' + data + '">' + data.substr(0, 10) + '...</span>' :
+            data;
 }
 
 //https://repl.it/@jafkoop/Capitalize-first-letter-of-every-word-using-regex
