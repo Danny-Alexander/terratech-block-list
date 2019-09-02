@@ -199,6 +199,9 @@
 				]
 			});
 
+			// Label the column visibility button for row details column
+			table.button('0-0').text('*Show/Hide Details*');
+
 			// Add event listener for opening and closing details
 			$('#version-dropdown').on('change', function () {
 				// Change the data source to the blocks.json for new version and refresh
