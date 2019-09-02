@@ -114,7 +114,11 @@
 				// Enable buttons to copy and export data
 				buttons: [
 					// Add column visibility (menu with button to toggle visibility for each column)
-					'colvis',
+					{
+						extend: 'colvis',
+						// ToDo: Work out why the option below is not working like https://datatables.net/extensions/buttons/examples/column_visibility/layout.html
+						collectionLayout: 'three-column'
+					},
 					// Add buttons to export/save the data in various formats
 					'copy', 'csv', 'excel', 'pdf'
 				],
