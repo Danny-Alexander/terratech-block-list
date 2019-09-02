@@ -101,7 +101,7 @@ function dataTableColumns() {
         showHideDetailsColumn(),
         newColumn("block", "string", true, "Name"),
         newColumn("resource_name"),
-        newColumn("description", "long_string", true),
+        newColumn("description", "long_string"),
         newColumn("id", "string", true, "ID"),
         newColumn("enum"),
         newColumn("mass", "number", true),
