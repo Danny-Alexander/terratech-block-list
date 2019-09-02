@@ -1,3 +1,22 @@
+
+function displayLocalisedNumber(data, type, row, meta) {
+    return type === 'display' ?
+        data.toLocaleString() :
+        data;
+}
+
+function displayLocalisedPrice(data, type, row, meta) {
+    return type === 'display' ?
+        data.toLocaleString() + ' ฿฿' :
+        data;
+}
+
+function displayShortenedTextAndTooltip(data, type, row, meta) {
+    return type === 'display' && data.length > 12 ?
+        '<span title="' + data + '">' + data.substr(0, 10) + '...</span>' :
+        data;
+}
+
 function dataTableColumns() {
     return [
         {
@@ -29,38 +48,22 @@ function dataTableColumns() {
         {
             "title": "Price",
             "data": "price",
-            "render": function (data, type, row, meta) {
-                return type === 'display' ?
-                    data.toLocaleString() + ' ฿฿' :
-                    data;
-            }
+            "render": displayLocalisedPrice
         },
         {
             "title": "Health",
             "data": "health",
-            "render": function (data, type, row, meta) {
-                return type === 'display' ?
-                    data.toLocaleString() :
-                    data;
-            }
+            "render": displayLocalisedNumber
         },
         {
             "title": "Mass",
             "data": "mass",
-            "render": function (data, type, row, meta) {
-                return type === 'display' ?
-                    data.toLocaleString() :
-                    data;
-            }
+            "render": displayLocalisedNumber
         },
         {
             "title": "Description",
             "data": "description",
-            "render": function (data, type, row, meta) {
-                return type === 'display' && data.length > 12 ?
-                    '<span title="' + data + '">' + data.substr(0, 10) + '...</span>' :
-                    data;
-            }
+            "render": displayShortenedTextAndTooltip
         }
     ]
 }
