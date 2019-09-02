@@ -101,38 +101,38 @@ function dataTableColumns() {
         newColumn("resource_name"),
         newColumn("description", "long_string", true),
         newColumn("id", "string", true, "ID"),
-        // newColumn("enum"),
+        newColumn("enum"),
         newColumn("mass", "number", true),
-        // newColumn("corp_int", "number"),
+        newColumn("corp_int", "number"),
         newColumn("corp", "string", true),
-        // newColumn("category_int", "number"),
+        newColumn("category_int", "number"),
         newColumn("category", "string", true),
         newColumn("grade", "string", true),
         newColumn("price", "price", true),
-        newColumn("health", "string", true)
+        newColumn("health", "string", true),
 
         
-        // newColumn("FireData.bullet_spray_variance", "number"),
-        // newColumn("FireData.bullet_velocity", "number"),
-        // newColumn("FireData.kickback_strength", "number"),
-        // newColumn("FireData.damage", "number"),
-        // newColumn("FireData.damage_type", "string"),
+        newColumn("FireData.bullet_spray_variance", "number"),
+        newColumn("FireData.bullet_velocity", "number"),
+        newColumn("FireData.kickback_strength", "number"),
+        newColumn("FireData.damage", "number"),
+        newColumn("FireData.damage_type"),
 
-        // newColumn("ModuleDrill.damape_per_second", "number"),
+        newColumn("ModuleDrill.damape_per_second", "number"),
 
-        // newColumn("ModuleEnergyStore.capacity", "number"),
+        newColumn("ModuleEnergyStore.capacity", "number"),
 
-        // newColumn("ModuleFuelTank.capacity", "number"),
-        // newColumn("ModuleFuelTank.refill_rate", "number"),
+        newColumn("ModuleFuelTank.capacity", "number"),
+        newColumn("ModuleFuelTank.refill_rate", "number"),
 
-        // newColumn("ModuleShieldGenerator.radius", "number"),
-        // newColumn("ModuleShieldGenerator.initial_charge_energy", "number"),
-        // newColumn("ModuleShieldGenerator.energy_idle", "number"),
-        // newColumn("ModuleShieldGenerator.energy_shield", "number"),
-        // newColumn("ModuleShieldGenerator.energy_heal", "number"),
-        // newColumn("ModuleShieldGenerator.heal_interval", "number"),
+        newColumn("ModuleShieldGenerator.radius", "number"),
+        newColumn("ModuleShieldGenerator.initial_charge_energy", "number"),
+        newColumn("ModuleShieldGenerator.energy_idle", "number"),
+        newColumn("ModuleShieldGenerator.energy_shield", "number"),
+        newColumn("ModuleShieldGenerator.energy_heal", "number"),
+        newColumn("ModuleShieldGenerator.heal_interval", "number"),
         
-        // newColumn("ModuleWeapon.shot_cooldown", "number"),
-        // newColumn("ModuleWeapon.rotate_speed", "number")
+        newColumn("ModuleWeapon.shot_cooldown", "number"),
+        newColumn("ModuleWeapon.rotate_speed", "number")
     ]
 }
