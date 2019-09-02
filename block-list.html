@@ -134,11 +134,24 @@
 						},
 						width: "15px"
 					},
-					{ "data": "block" },
-					{ "data": "category" },
-					{ "data": "corp" },
-					{ "data": "grade" },
 					{
+						"title": "Name",
+						"data": "block"
+					},
+					{
+						"title": "Category", 
+						"data": "category"
+					},
+					{
+						"title": "Corp", 
+						"data": "corp"
+					},
+					{
+						"title": "Grade", 
+						"data": "grade"
+					},
+					{
+						"title": "Price", 
 						"data": "price",
 						"render": function (data, type, row, meta) {
 							return type === 'display' ?
@@ -147,6 +160,7 @@
 						}
 					},
 					{
+						"title": "Health", 
 						"data": "health",
 						"render": function (data, type, row, meta) {
 							return type === 'display' ?
@@ -155,6 +169,7 @@
 						}
 					},
 					{
+						"title": "Mass", 
 						"data": "mass",
 						"render": function (data, type, row, meta) {
 							return type === 'display' ?
@@ -163,6 +178,7 @@
 						}
 					},
 					{
+						"title": "Description", 
 						"data": "description",
 						"render": function (data, type, row, meta) {
 							return type === 'display' && data.length > 12 ?
