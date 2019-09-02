@@ -30,39 +30,39 @@ function dataTableColumns() {
             width: "15px"
         },
         {
-            "title": "Name",
-            "data": "block"
+            "data": "block",
+            "title": "Name"
         },
         {
-            "title": "Category",
-            "data": "category"
+            "data": "category",
+            "title": "Category"
         },
         {
-            "title": "Corp",
-            "data": "corp"
+            "data": "corp",
+            "title": "Corp"
         },
         {
-            "title": "Grade",
-            "data": "grade"
+            "data": "grade",
+            "title": "Grade"
         },
         {
-            "title": "Price",
             "data": "price",
+            "title": "Price",
             "render": displayLocalisedPrice
         },
         {
-            "title": "Health",
             "data": "health",
+            "title": "Health",
             "render": displayLocalisedNumber
         },
         {
-            "title": "Mass",
             "data": "mass",
+            "title": "Mass",
             "render": displayLocalisedNumber
         },
         {
-            "title": "Description",
             "data": "description",
+            "title": "Description",
             "render": displayShortenedTextAndTooltip
         }
     ]
