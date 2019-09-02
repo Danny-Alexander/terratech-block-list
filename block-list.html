@@ -96,7 +96,9 @@
 			var table = $('#blocks-table').DataTable({
 
 				// Data is loaded by version dropdown change event
-				ajax: '',
+				ajax: {
+					"dataSrc": 'data_blocks'
+				},
 
 				processing: true,
 
