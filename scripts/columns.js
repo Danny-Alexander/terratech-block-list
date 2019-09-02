@@ -100,7 +100,6 @@ function dataTableColumns() {
         // newColumn("corp_int", "number"),
         newColumn("corp", "string", true),
         // newColumn("category_int", "number"),
-        newColumn("corp", "string", true),
         newColumn("category", "string", true),
         newColumn("grade", "string", true),
         newColumn("price", "price", true),
