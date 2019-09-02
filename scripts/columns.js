@@ -72,7 +72,9 @@ function newColumn(data, valueType = 'string', visible = false, title) {
         "title": (title == undefined)
             ? columnTitleFromDataPath(data)
             : title,
-        "visible": visible
+        "visible": visible,
+        // Make blank any cells which represent json properties that don't exist
+        "defaultContent": ''
     }
     if (valueTypeRenderFunctions[valueType]){
         c.render = valueTypeRenderFunctions[valueType];
