@@ -1,6 +1,10 @@
 
-function versionNameToDataSource(name) {
-    return 'data/TerraTech/' + name + '/blocks.json'
+function versionToDataSource(v) {
+    return 'data/TerraTech/' + v.version + '/' + v.branch + '.json'
+}
+
+function versionToDisplayText(v) {
+    return v.version + ' (' + v.branch + ')'
 }
 
 function populateVersionDropdown() {
@@ -16,8 +20,8 @@ function populateVersionDropdown() {
         // ToDo: Parse data and flag which version should be selected by default.
         $.each(data, function (key, v) {
             dropdown.append($('<option></option>')
-                .attr('value', versionNameToDataSource(v.name))
-                .text(v.name));
+                .attr('value', versionToDataSource(v))
+                .text(versionToDisplayText(v)));
         })
         // Let the rest of the page know the selected version changed
         dropdown.trigger('change');

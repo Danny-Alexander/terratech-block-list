@@ -16,6 +16,7 @@
 	
 	<!-- Local scripts -->
 	<script type="text/javascript" src="scripts/version-selection.js"></script>
+	<script type="text/javascript" src="scripts/columns.js"></script>
 
 	<style>
 		/* Colouring for child details button */
@@ -47,38 +48,12 @@
 				<h3 style="display: inline;">  Blocks List</h3>
 				<span>v0.1.5</span>
 			</th>
-			<th align="right" width="10%"></th>
-			<th id="exportControls" align="right" width="20%"></th>
+			<th align="right" width="1%"></th>
+			<th id="exportControls" align="right" width="29%"></th>
 		</table>
 	</div>
 	<div class="container">
 		<table id="blocks-table" class="display" style="width:100%">
-			<thead>
-				<tr>
-					<th></th>
-					<th>Name</th>
-					<th>Category</th>
-					<th>Corp</th>
-					<th>Grade</th>
-					<th>Price</th>
-					<th>Health</th>
-					<th>Mass</th>
-					<th>Description</th>
-				</tr>
-			</thead>
-			<tfoot>
-				<tr>
-					<th></th>
-					<th>Name</th>
-					<th>Category</th>
-					<th>Corp</th>
-					<th>Grade</th>
-					<th>Price</th>
-					<th>Health</th>
-					<th>Mass</th>
-					<th>Description</th>
-				</tr>
-			</tfoot>
 		</table>
 	</div>
 	<script>
@@ -121,7 +96,9 @@
 			var table = $('#blocks-table').DataTable({
 
 				// Data is loaded by version dropdown change event
-				ajax: '',
+				ajax: {
+					"dataSrc": 'data_blocks'
+				},
 
 				processing: true,
 
@@ -137,7 +114,11 @@
 				// Enable buttons to copy and export data
 				buttons: [
 					// Add column visibility (menu with button to toggle visibility for each column)
-					'colvis',
+					{
+						extend: 'colvis',
+						// ToDo: Work out why the option below is not working like https://datatables.net/extensions/buttons/examples/column_visibility/layout.html
+						collectionLayout: 'three-column'
+					},
 					// Add buttons to export/save the data in various formats
 					'copy', 'csv', 'excel', 'pdf'
 				],
@@ -149,54 +130,7 @@
 				lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 
 				// Correlate data elements to columns define above (order specific)
-				columns: [
-					{
-						"className": 'details-control',
-						"orderable": false,
-						"data": null,
-						"defaultContent": '',
-						"render": function () {
-							return '<i class="fa fa-plus-square" aria-hidden="true"></i>';
-						},
-						width: "15px"
-					},
-					{ "data": "block" },
-					{ "data": "category" },
-					{ "data": "corp" },
-					{ "data": "grade" },
-					{
-						"data": "price",
-						"render": function (data, type, row, meta) {
-							return type === 'display' ?
-								data.toLocaleString() + ' ฿฿' :
-								data;
-						}
-					},
-					{
-						"data": "health",
-						"render": function (data, type, row, meta) {
-							return type === 'display' ?
-								data.toLocaleString() :
-								data;
-						}
-					},
-					{
-						"data": "mass",
-						"render": function (data, type, row, meta) {
-							return type === 'display' ?
-								data.toLocaleString() :
-								data;
-						}
-					},
-					{
-						"data": "description",
-						"render": function (data, type, row, meta) {
-							return type === 'display' && data.length > 12 ?
-								'<span title="' + data + '">' + data.substr(0, 10) + '...</span>' :
-								data;
-						}
-					}
-				]
+				columns: dataTableColumns()
 			});
 
 			// Label the column visibility button for row details column

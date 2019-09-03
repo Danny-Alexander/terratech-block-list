@@ -1,14 +1,10 @@
 [
 	{
-		"name": "1.3.1.1",
-		"branch": "TT_Unstable"
+		"version": "1.3.2",
+		"branch": "Stable"
 	},
 	{
-		"name": "1.3.1.2",
-		"branch": "TT_Unstable"
-	},
-	{
-		"name": "1.3.1.3",
-		"branch": "TT_Unstable"
+		"version": "1.3.1.5",
+		"branch": "Unstable"
 	}
 ]
