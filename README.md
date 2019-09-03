@@ -2,13 +2,23 @@
 
 Browser based table to display up-to-date and accurate (mod-exported) properties for blocks in TerraTech game.
 
-Latest Release: [Block List v0.1.5](https://danny-alexander.github.io/terratech-block-list/block-list.html)
+## Web page: [Block List v0.2.0](https://danny-alexander.github.io/terratech-block-list/block-list.html)
+
+[GitKraken Glo board - planning etc](https://app.gitkraken.com/glo/board/XVD-R2R-2QAPHQed)
+
+[Report a bug or suggest a feature](https://github.com/Danny-Alexander/terratech-block-list/issues/new/choose)
+
+Check out the [outstanding issues](https://github.com/Danny-Alexander/terratech-block-list/issues) if you'd like to help - any is welcome.
 
 ## Current features
 
-### Expandable details
+### Show/hide columns
 
-![ExpandableDetails-v0.1.4.PNG](docs/images/ExpandableDetails-v0.1.4.PNG)
+### Save or copy the data
+
+Copy/export into a spreadsheet (includes hidden columns). This is like flattening the json data file.
+
+![CopyOrExportData-v0.1.4.PNG](docs/images/CopyOrExportData-v0.1.4.PNG)
 
 ### Sorting
 
@@ -16,40 +26,17 @@ Hold shift to sort by a 2nd column.
 
 ![MultipleColumnSorting-v0.1.4.PNG](docs/images/MultipleColumnSorting-v0.1.4.PNG)
 
-### Filtering
-
-Using javascript regular expressions.
-
-#### Global filter
+### Global filter
 
 ![GlobalSearch-v0.1.4.PNG](docs/images/GlobalSearch-v0.1.4.PNG)
-
-#### Individual Column filter
-
-![IndividualColumnSearch-v0.1.4.PNG](docs/images/IndividualColumnSearch-v0.1.4.PNG)
-
-##### Examples
-
-Display only standard blocks.
-
-![SearchExample-StandardBlocks-v0.1.4.PNG](docs/images/SearchExample-StandardBlocks-v0.1.4.PNG)
-
-Separate (OR) alternative matches with ```|``` e.g ```gso|geo``` to show only GSO or GeoCorp blocks.
-
-![SearchExample-DualCorp-v0.1.4.PNG](docs/images/SearchExample-DualCorp-v0.1.4.PNG)
-
-Wheel type blocks that don't have ```track``` or ```wheel``` in their name.
-I [looked this one up](https://stackoverflow.com/questions/6449131/javascript-regular-expression-to-not-match-a-word): ```^((?!(track|wheel)).)*$```
-
-![SearchExample-NotRegex-v0.1.4.PNG](docs/images/SearchExample-NotRegex-v0.1.4.PNG)
 
 ### Specify how many rows to display.
 
 ![SelectTableLength-v0.1.4.PNG](docs/images/SelectTableLength-v0.1.4.PNG)
 
-### Save or copy the data (e.g into a spreadsheet).
+### Expandable details (WIP)
 
-![CopyOrExportData-v0.1.4.PNG](docs/images/CopyOrExportData-v0.1.4.PNG)
+![ExpandableDetails-v0.1.4.PNG](docs/images/ExpandableDetails-v0.1.4.PNG)
 
 ## Planned features
 
@@ -59,14 +46,10 @@ I [looked this one up](https://stackoverflow.com/questions/6449131/javascript-re
 
 e.g Speed and movement stats for wheels, propellers, damage stats for guns etc.
 
-This will require updating the mod which exports the information we have, ideally in a more easily query-able json format.
+## Feedback
 
-## Links
+Both negative and positive is welcome - I've been winging this one for the most part from the get-go having almost no prior experience with html, jquery, DataTables, setting up GitHub projects, GitKraken integration etc.
 
-[GitKraken Glo board - planning etc](https://app.gitkraken.com/glo/board/XVD-R2R-2QAPHQed)
+## Notes
 
-[Report a bug or suggest a feature](https://github.com/Danny-Alexander/terratech-block-list/issues/new/choose)
-
-Please feel free to help out cleaning up code, working on any of the [outstanding issues](https://github.com/Danny-Alexander/terratech-block-list/issues). 
-
-All negative and positive feedback is welcome - I've been winging this one for the most part from the get-go having almost no prior experience with html, jquery, datatables, setting up GitHub projects, GitKraken integration etc.
+I wish I'd done this using Vue framework now and am tempted to put time into setting it up with that instead.
