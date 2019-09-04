@@ -41,8 +41,8 @@
 <body>
 	<div style="width:100%">
 		<table style="margin:0">
-			<th align="left" width="20%"><input id="globalSearch" placeholder="Search everything" style="padding:8px; width:100%"></th>
-			<th align="left" width="10%"><div id="rowCountControls" style="display: inline;" ></div></th>
+			<th align="center" width="20%"><input id="globalSearch" placeholder="Search everything" style="padding:8px; width:100%"></th>
+			<th align="center" width="15%"><div id="rowCountControls" style="display: inline;" ></div></th>
 			<th width="40%">
 				<h3 style="display: inline">TerraTech:</h3>
 				<select id="version-dropdown" style="width: auto">
@@ -211,8 +211,6 @@
 			// Move row count control
 			$('#blocks-table_length').find('select')
 				.css('width', 'auto')
-				.css('padding', 8)
-				.css('margin', 0);
 			$('#blocks-table_length').appendTo('#rowCountControls');
 		});
 	</script>
