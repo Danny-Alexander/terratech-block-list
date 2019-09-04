@@ -23,6 +23,14 @@ function displayShortenedTextAndTooltip(data, type, row, meta) {
             data;
 }
 
+function displayInlineRecipe(data, type, row, meta) {
+    return data == undefined ?
+        '' :
+        type === 'display' ?
+            recipeToHtml(data) :
+            data;
+}
+
 //https://repl.it/@jafkoop/Capitalize-first-letter-of-every-word-using-regex
 //TODO: move these functions somewhere more appropriate
 function upperCase(str) {
@@ -65,7 +73,8 @@ function newColumn(data, valueType = 'string', visible = false, title) {
     const valueTypeRenderFunctions = {
         "number": displayLocalisedNumber,
         "price": displayLocalisedPrice,
-        "long_string": displayShortenedTextAndTooltip
+        "long_string": displayShortenedTextAndTooltip,
+        "recipe": displayInlineRecipe
     }
     var c = {
         "data": data,
@@ -100,6 +109,7 @@ function dataTableColumns() {
     return [
         showHideDetailsColumn(),
         newColumn("block", "string", true, "Name"),
+        newColumn("recipe", "recipe", true),
         newColumn("resource_name"),
         newColumn("description", "long_string"),
         newColumn("id", "string", true, "ID"),
