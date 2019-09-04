@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Grade displaying 1 less than it should
+- Row count drop-down style (by [Simone Mulazzi](https://github.com/mulaz1))
 
 ## [0.2.0] - 2019-09-03
 
