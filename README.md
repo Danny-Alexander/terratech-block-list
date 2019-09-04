@@ -4,6 +4,11 @@ Browser based table to display up-to-date and accurate (mod-exported) properties
 
 ## Web page: [Block List v0.2.1](https://danny-alexander.github.io/terratech-block-list/block-list.html)
 
+## Contributing
+See [Running locally for testing](https://github.com/Danny-Alexander/terratech-block-list/wiki/Running-locally-for-testing)
+
+## Other links
+
 [GitKraken Glo board - planning etc](https://app.gitkraken.com/glo/board/XVD-R2R-2QAPHQed)
 
 [Report a bug or suggest a feature](https://github.com/Danny-Alexander/terratech-block-list/issues/new/choose)
