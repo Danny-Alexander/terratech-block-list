@@ -27,7 +27,7 @@ function displayInlineRecipe(data, type, row, meta) {
     return data == undefined ?
         '' :
         type === 'display' ?
-            recipeToHtml(data) :
+            recipeHtml(data) :
             data;
 }
 
