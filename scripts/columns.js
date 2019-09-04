@@ -23,6 +23,15 @@ function displayShortenedTextAndTooltip(data, type, row, meta) {
             data;
 }
 
+// Display grade + 1 (grade starts at 1 not 0 in game)
+function displayGrade(data, type, row, meta) {
+    return data == undefined ?
+        '' :
+        type === 'display' ?
+            (data + 1).toLocaleString() :
+            data;
+}
+
 function displayInlineRecipe(data, type, row, meta) {
     return data == undefined ?
         '' :
@@ -45,6 +54,7 @@ function newColumn(data, valueType = 'string', visible = false, title) {
     const valueTypeRenderFunctions = {
         "number": displayLocalisedNumber,
         "price": displayLocalisedPrice,
+        "grade": displayGrade,
         "long_string": displayShortenedTextAndTooltip,
         "recipe": displayInlineRecipe
     }
@@ -91,7 +101,7 @@ function dataTableColumns() {
         newColumn("corp", "string", true),
         newColumn("category_int", "number"),
         newColumn("category", "string", true),
-        newColumn("grade", "string", true),
+        newColumn("grade", "grade", true),
         newColumn("price", "price", true),
         newColumn("health", "string", true),
 
