@@ -135,6 +135,14 @@
 				columns: dataTableColumns()
 			});
 
+			// Recalculate column widths whenever redrawing the table
+			table
+				.on( 'preDraw', function () {
+					table
+						.columns.adjust()
+						.responsive.recalc();
+				} )
+
 			// Label the column visibility button for row details column
 			table.button('0-0').text('*Show/Hide Details*');
 
