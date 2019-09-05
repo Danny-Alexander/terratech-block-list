@@ -95,8 +95,8 @@ function rowDetailsHtml ( d ) {
             '<td>'+d.id+'</td>'+
         '</tr>'+
         '<tr style="background-color: #ffffff;">'+
-            '<td>Wiki Block Infobox:</td>'+
-            '<td><code>' + wikiBlockInfoboxText(d) + '</code></td>'+
+            '<td style="vertical-align: text-top;">Wiki Block Infobox:</td>'+
+            '<td><div><a>Copy to clipboard (not implemented)</a></div><span style="white-space: pre; font-family: monospace;">' + wikiBlockInfoboxText(d) + '</span></td>'+
         '</tr>'+
         '<tr style="background-color: #ffffff;">'+
             '<td>Resource name:</td>'+
