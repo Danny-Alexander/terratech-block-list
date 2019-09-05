@@ -42,17 +42,17 @@
 <body>
 	<div style="width:100%">
 		<table style="margin:0">
-			<th align="center" width="20%"><input id="globalSearch" placeholder="Search everything" style="padding:8px; width:100%"></th>
-			<th align="center" width="15%"><div id="rowCountControls" style="display: inline;" ></div></th>
-			<th width="40%">
+			<th align="center" width="5%"><div id="gitHubIcon" style="display: inline;"><a href="https://github.com/Danny-Alexander/terratech-block-list"><img src="images/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="GitHub" style="width: 32px; height: 32px;"></a></div></th>
+			<th align="center" width="15%"><input id="globalSearch" placeholder="Search everything" style="padding:8px; width:100%"></th>
+			<th align="center" width="15%"><div id="rowCountControls" style="display: inline;"></div></th>
+			<th width="35%">
 				<h3 style="display: inline">TerraTech:</h3>
 				<select id="version-dropdown" style="width: auto">
 				</select>
 				<h3 style="display: inline;">  Blocks List</h3>
-				<span>v0.2.1</span>
+				<span>v0.2.2</span>
 			</th>
-			<th align="right" width="1%"></th>
-			<th id="exportControls" align="right" width="29%"></th>
+			<th id="exportControls" align="right" width="30%"></th>
 		</table>
 	</div>
 	<div class="container">
@@ -107,11 +107,24 @@
 				// Also determines the page layout: https://datatables.net/reference/option/dom
 				dom: 'lBrtip',
 
-				lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
+				lengthMenu: [ [10, 20, 30, 40, 50, 100, -1], [10, 20, 30, 40, 50, 100, "All"] ],
 
 				// Correlate data elements to columns define above (order specific)
 				columns: dataTableColumns()
 			});
+
+			var startTime;
+			// Recalculate column widths whenever redrawing the table
+			table
+				.on( 'preDraw', function () {
+					startTime = new Date().getTime();
+					table
+						.columns.adjust()
+						.responsive.recalc();
+				} )
+				.on( 'draw.dt', function () {
+					console.log( 'Redraw took: '+(new Date().getTime()-startTime)+'mS' );
+				} );
 
 			// Label the column visibility button for row details column
 			table.button('0-0').text('*Show/Hide Details*');
@@ -155,32 +168,6 @@
 					.search($('#globalSearch').val(), true)
 					.draw();
 			});
-
-			// Format and move individual column search inputs before table header
-			{
-				let r = $('#blocks-table tfoot tr');
-				r.find('th').each(function () {
-					$(this).css('padding', 8);
-				});
-				r.find('th input').each(function () {
-					$(this).css('margin', 0);
-				});
-				$('#blocks-table thead').prepend(r);
-			}
-
-			// Add event listener for individual column search change
-			table.columns().every( function () {
-				var thisColumn = this;
-				
-				$( 'input', this.footer() ).on( 'keyup change clear', function () {
-					// Apply the search when input value changes
-					if ( thisColumn.search() !== this.value ) {
-						thisColumn
-							.search( this.value, true )
-							.draw();
-					}
-				} );
-			} );
 
 			// Move export buttons
 			$('#blocks-table_wrapper div.dt-buttons').appendTo('#exportControls');
