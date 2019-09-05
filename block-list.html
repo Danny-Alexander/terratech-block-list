@@ -19,6 +19,7 @@
 	<script type="text/javascript" src="scripts/string-formatting.js"></script>
 	<script type="text/javascript" src="scripts/recipe.js"></script>
 	<script type="text/javascript" src="scripts/columns.js"></script>
+	<script type="text/javascript" src="scripts/row-details.js"></script>
 
 	<style>
 		/* Colouring for child details button */
@@ -59,29 +60,6 @@
 		</table>
 	</div>
 	<script>
-
-		/* Formatting function for row details */
-		function format ( d ) {
-			// `d` is the original data object for the row
-			return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
-				'<tr style="background-color: #ffffff;">'+
-					'<td>Description:</td>'+
-					'<td>'+d.description+'</td>'+
-				'</tr>'+
-				'<tr style="background-color: #ffffff;">'+
-					'<td>ID:</td>'+
-					'<td>'+d.id+'</td>'+
-				'</tr>'+
-				'<tr style="background-color: #ffffff;">'+
-					'<td>Resource name:</td>'+
-					'<td>'+d.resource_name+'</td>'+
-				'</tr>'+
-				'<tr style="background-color: #ffffff;">'+
-					'<td>Enum ID:</td>'+
-					'<td>'+d.enum_id+'</td>'+
-				'</tr>'+
-			'</table>';
-		}
 
 		$(document).ready(function () {
 
@@ -176,7 +154,7 @@
 				}
 				else {
 					// Open this row
-					row.child(format(row.data())).show();
+					row.child(rowDetailsHtml(row.data())).show();
 				}
 			});
 			
