@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Columns not automatically resizing well
+- Search everything filtering
+
+### Added
+
+- More table length options
+
 ## [0.2.1] - 2019-09-04
 
 ### Added
