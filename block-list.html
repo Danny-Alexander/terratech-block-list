@@ -186,32 +186,6 @@
 					.draw();
 			});
 
-			// Format and move individual column search inputs before table header
-			{
-				let r = $('#blocks-table tfoot tr');
-				r.find('th').each(function () {
-					$(this).css('padding', 8);
-				});
-				r.find('th input').each(function () {
-					$(this).css('margin', 0);
-				});
-				$('#blocks-table thead').prepend(r);
-			}
-
-			// Add event listener for individual column search change
-			table.columns().every( function () {
-				var thisColumn = this;
-				
-				$( 'input', this.footer() ).on( 'keyup change clear', function () {
-					// Apply the search when input value changes
-					if ( thisColumn.search() !== this.value ) {
-						thisColumn
-							.search( this.value, true )
-							.draw();
-					}
-				} );
-			} );
-
 			// Move export buttons
 			$('#blocks-table_wrapper div.dt-buttons').appendTo('#exportControls');
 			$('#exportControls div').css('margin', 0);
