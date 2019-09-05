@@ -135,13 +135,18 @@
 				columns: dataTableColumns()
 			});
 
+			var startTime;
 			// Recalculate column widths whenever redrawing the table
 			table
 				.on( 'preDraw', function () {
+					startTime = new Date().getTime();
 					table
 						.columns.adjust()
 						.responsive.recalc();
 				} )
+				.on( 'draw.dt', function () {
+					console.log( 'Redraw took: '+(new Date().getTime()-startTime)+'mS' );
+				} );
 
 			// Label the column visibility button for row details column
 			table.button('0-0').text('*Show/Hide Details*');
