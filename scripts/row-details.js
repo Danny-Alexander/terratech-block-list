@@ -62,8 +62,7 @@ function wikiBlockInfoboxText(b) {
     }
     result += "| value           = " + b.price + "\n"; //The purchase value
 
-    // Need formula for scrapvalue. Something about 1/3 price? I've not had time to check.
-    // result += "| scrapvalue      = " + "#no-data#" + "\n"; //The value of the block when it is scrapped
+    result += "| scrapvalue      = " + priceToScrapValue(b.price) + "\n"; //The value of the block when it is scrapped
     
     // There is no block data for traction at present.
     // result += "| traction        = " + "#no-data#" + "\n"; //Full / Partial / None
