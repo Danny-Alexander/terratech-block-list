@@ -129,7 +129,7 @@ function rowDetailsHtml ( row ) {
                         '<img class="clippy" src="images/clippy.svg" width="13" alt="Copy to clipboard">'+
                     '</button>'+
                 '</div>'+
-                '<span id="' + wikiCodeId + '"style="white-space: pre; font-family: monospace;">'+
+                '<span id="' + wikiCodeId + '"style="white-space: pre-wrap; font-family: monospace;">'+
                     wikiBlockInfoboxText(b) + 
                 '</span>'+
             '</td>'+
