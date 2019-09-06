@@ -66,6 +66,9 @@
 
 		$(document).ready(function () {
 
+			// Setup to copy to clipboard on 'btn' class elements https://clipboardjs.com#setup
+			var clipboard = new ClipboardJS('.btn');
+
 			populateVersionDropdown();
 
 			// Add search text input to each non-blank column
@@ -157,7 +160,8 @@
 				}
 				else {
 					// Open this row
-					row.child(rowDetailsHtml(row.data())).show();
+					console.log(row);
+					row.child(rowDetailsHtml(row)).show();
 				}
 			});
 			
