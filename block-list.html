@@ -13,6 +13,12 @@
 	<!-- Font-awesome for child details button icons -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- clipboard.js to copy text etc to clipboard https://clipboardjs.com/ -->
+	<script src="resources/js/clipboard.min.js"></script>
+
+	<!-- adapted from normalize.css v3.0.3 https://github.com/necolas/normalize.css -->
+	<link rel="stylesheet" href="resources/css/normalize-partial.css">
 	
 	<!-- Local scripts -->
 	<script type="text/javascript" src="scripts/version-selection.js"></script>
@@ -20,6 +26,7 @@
 	<script type="text/javascript" src="scripts/recipe.js"></script>
 	<script type="text/javascript" src="scripts/columns.js"></script>
 	<script type="text/javascript" src="scripts/row-details.js"></script>
+	<script type="text/javascript" src="scripts/calculated-stats.js"></script>
 
 	<style>
 		/* Colouring for child details button */
@@ -44,15 +51,15 @@
 		<table style="margin:0">
 			<th align="center" width="5%"><div id="gitHubIcon" style="display: inline;"><a href="https://github.com/Danny-Alexander/terratech-block-list"><img src="images/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="GitHub" style="width: 32px; height: 32px;"></a></div></th>
 			<th align="center" width="15%"><input id="globalSearch" placeholder="Search everything" style="padding:8px; width:100%"></th>
-			<th align="center" width="15%"><div id="rowCountControls" style="display: inline;"></div></th>
-			<th width="35%">
-				<h3 style="display: inline">TerraTech:</h3>
+			<th align="center" width="13%"><div id="rowCountControls" style="display: inline;"></div></th>
+			<th width="40%">
+				<h4 style="display: inline">TerraTech:</h4>
 				<select id="version-dropdown" style="width: auto">
 				</select>
-				<h3 style="display: inline;">  Blocks List</h3>
+				<h4 style="display: inline;">  Blocks List</h4>
 				<span>v0.2.2</span>
 			</th>
-			<th id="exportControls" align="right" width="30%"></th>
+			<th id="exportControls" align="right" width="24%"></th>
 		</table>
 	</div>
 	<div class="container">
@@ -62,6 +69,9 @@
 	<script>
 
 		$(document).ready(function () {
+
+			// Setup to copy to clipboard on 'btn' class elements https://clipboardjs.com#setup
+			var clipboard = new ClipboardJS('.btn');
 
 			populateVersionDropdown();
 
@@ -100,7 +110,7 @@
 						collectionLayout: 'three-column'
 					},
 					// Add buttons to export/save the data in various formats
-					'copy', 'csv', 'excel', 'pdf'
+					'copy', 'excel'
 				],
 
 				// Display buttons with filter control (search). 
@@ -154,7 +164,8 @@
 				}
 				else {
 					// Open this row
-					row.child(rowDetailsHtml(row.data())).show();
+					console.log(row);
+					row.child(rowDetailsHtml(row)).show();
 				}
 			});
 			

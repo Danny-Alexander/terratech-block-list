@@ -46,8 +46,11 @@ function wikiBlockInfoboxText(b) {
     result += "| mass            = " + b.mass + "\n"; //The weight of the entire block.
     result += "| corp            = " + b.corp + "\n"; //Corporation the block is assigned to. 
     result += "| license         = " + (b.grade + 1) + "\n"; //The associated license in the corp the block belongs to
-    result += "| rarity          = " + "#no-data#" + "\n"; //The rarity of the Block
-    result += "| blocklimit      = " + "#no-data#" + "\n"; //The amount of the block limit the block takes up on consoles
+    result += (b.rarity) ? 
+        "| rarity          = " + b.rarity + "\n" : ""; //The rarity of the Block
+    
+    // All blocks have blocklimit_cost = 1 in data file so I don't know what to add for this.
+    // result += "| blocklimit      = " + "#no-data#" + "\n"; //The amount of the block limit the block takes up on consoles
 
     if (b.recipe) {
         var index, ingredient;
@@ -58,8 +61,11 @@ function wikiBlockInfoboxText(b) {
         }
     }
     result += "| value           = " + b.price + "\n"; //The purchase value
-    result += "| scrapvalue      = " + "#no-data#" + "\n"; //The value of the block when it is scrapped
-    result += "| traction        = " + "#no-data#" + "\n"; //Full / Partial / None
+
+    result += "| scrapvalue      = " + priceToScrapValue(b.price) + "\n"; //The value of the block when it is scrapped
+    
+    // There is no block data for traction at present.
+    // result += "| traction        = " + "#no-data#" + "\n"; //Full / Partial / None
 
     result += (b.ModuleEnergyStore && b.ModuleEnergyStore.capacity) ? 
         "| energycapacity  = " + b.ModuleEnergyStore.capacity + "\n" : ""; //The highest storage capacity of a battery
@@ -98,28 +104,35 @@ function wikiBlockInfoboxText(b) {
 
 
 /* Formatting function for row details */
-function rowDetailsHtml ( d ) {
-    // `d` is the original data object for the row
+function rowDetailsHtml ( row ) {
+    // `b` is the original data object for the row
+    var b = row.data();
+    // Create a unique ID element containing the wiki code e.g "wiki-block-infobox-2"
+    var wikiCodeId = "wiki-block-infobox-" + row.index();
+
+    console.log(wikiCodeId);
+    
     return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
         '<tr style="background-color: #ffffff;">'+
             '<td>Description:</td>'+
-            '<td>'+d.description+'</td>'+
-        '</tr>'+
-        '<tr style="background-color: #ffffff;">'+
-            '<td>ID:</td>'+
-            '<td>'+d.id+'</td>'+
+            '<td>'+b.description+'</td>'+
         '</tr>'+
         '<tr style="background-color: #ffffff;">'+
             '<td style="vertical-align: text-top;">Wiki Block Infobox:</td>'+
-            '<td><div><a>Copy to clipboard (Example only, not working)</a></div><span style="white-space: pre; font-family: monospace;">' + wikiBlockInfoboxText(d) + '</span></td>'+
+            '<td>'+
+                '<div>'+
+                    '<button class="btn" type="button" data-clipboard-target="#' + wikiCodeId + '">'+
+                        '<img class="clippy" src="images/clippy.svg" width="13" alt="Copy to clipboard">'+
+                    '</button>'+
+                '</div>'+
+                '<span id="' + wikiCodeId + '"style="white-space: pre-wrap; font-family: monospace;">'+
+                    wikiBlockInfoboxText(b) + 
+                '</span>'+
+            '</td>'+
         '</tr>'+
         '<tr style="background-color: #ffffff;">'+
             '<td>Resource name:</td>'+
-            '<td>'+d.resource_name+'</td>'+
-        '</tr>'+
-        '<tr style="background-color: #ffffff;">'+
-            '<td>Enum ID:</td>'+
-            '<td>'+d.enum_id+'</td>'+
+            '<td>'+b.resource_name+'</td>'+
         '</tr>'+
     '</table>';
 }
