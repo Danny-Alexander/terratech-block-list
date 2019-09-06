@@ -129,7 +129,6 @@ function rowDetailsHtml ( row ) {
                     wikiBlockInfoboxText(b) + 
                 '</span>'+
             '</td>'+
-            // '<td><div><a>Copy to clipboard</a></div><span style="white-space: pre; font-family: monospace;">' + wikiBlockInfoboxText(b) + '</span></td>'+
         '</tr>'+
         '<tr style="background-color: #ffffff;">'+
             '<td>Resource name:</td>'+
