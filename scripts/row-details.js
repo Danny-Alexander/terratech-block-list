@@ -139,9 +139,5 @@ function rowDetailsHtml ( row ) {
             '<td>Resource name:</td>'+
             '<td>'+b.resource_name+'</td>'+
         '</tr>'+
-        '<tr style="background-color: #ffffff;">'+
-            '<td>Enum ID:</td>'+
-            '<td>'+b.enum_id+'</td>'+
-        '</tr>'+
     '</table>';
 }
