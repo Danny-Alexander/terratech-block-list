@@ -1,0 +1,3 @@
+[submodule "resources/submodules/clipboard.js"]
+	path = resources/submodules/clipboard.js
+	url = https://github.com/zenorocha/clipboard.js.git
