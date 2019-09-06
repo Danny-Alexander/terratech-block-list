@@ -118,10 +118,6 @@ function rowDetailsHtml ( row ) {
             '<td>'+b.description+'</td>'+
         '</tr>'+
         '<tr style="background-color: #ffffff;">'+
-            '<td>ID:</td>'+
-            '<td>'+b.id+'</td>'+
-        '</tr>'+
-        '<tr style="background-color: #ffffff;">'+
             '<td style="vertical-align: text-top;">Wiki Block Infobox:</td>'+
             '<td>'+
                 '<div>'+
