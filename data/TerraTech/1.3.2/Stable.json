@@ -1,5 +1,6 @@
 {
   "game_version": "1.3.2",
+  "date": "6/09/2019 12:39:06 PM",
   "data_chunks": [
     {
       "name": "Fibrewood Chunk",
@@ -611,6 +612,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 126,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -638,6 +641,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 351,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1500,
       "recipe": [
         {
@@ -665,6 +670,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 126,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -692,6 +699,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 216,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -719,6 +728,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 177,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 135,
       "recipe": [
         {
@@ -751,6 +762,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 2634,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -783,6 +796,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 1998,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 220,
       "recipe": [
         {
@@ -826,6 +841,8 @@
       "category": "Control",
       "grade": 0,
       "price": 1029,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -873,6 +890,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 216,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 218,
       "recipe": [
         {
@@ -900,6 +919,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 81,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -927,6 +948,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 378,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -957,6 +980,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 2694,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 100,
       "recipe": [
         {
@@ -993,6 +1018,8 @@
       "category": "Flight",
       "grade": 4,
       "price": 2709,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -1025,6 +1052,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 207,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 165,
       "recipe": [
         {
@@ -1063,6 +1092,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 606,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 330,
       "recipe": [
         {
@@ -1106,6 +1137,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 282,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -1144,6 +1177,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 2928,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 440,
       "recipe": [
         {
@@ -1187,6 +1222,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 228,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -1214,6 +1251,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 90,
       "recipe": [
         {
@@ -1246,6 +1285,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 297,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -1273,6 +1314,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 198,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 178,
       "recipe": [
         {
@@ -1300,6 +1343,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 246,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -1327,6 +1372,8 @@
       "category": "Flight",
       "grade": 4,
       "price": 4434,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -1364,6 +1411,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 300,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -1396,6 +1445,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 435,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 436,
       "recipe": [
         {
@@ -1428,6 +1479,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 231,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -1455,6 +1508,8 @@
       "category": "Accessory",
       "grade": 3,
       "price": 2091,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -1492,6 +1547,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 234,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -1519,6 +1576,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 144,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 188,
       "recipe": [
         {
@@ -1546,6 +1605,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 369,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -1573,6 +1634,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 708,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1742,
       "recipe": [
         {
@@ -1600,6 +1663,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1332,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3485,
       "recipe": [
         {
@@ -1632,6 +1697,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2403,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 6970,
       "recipe": [
         {
@@ -1669,6 +1736,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 918,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1742,
       "recipe": [
         {
@@ -1701,6 +1770,8 @@
       "category": "Control",
       "grade": 0,
       "price": 1014,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 784,
       "recipe": [
         {
@@ -1740,6 +1811,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 1485,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3802,
       "recipe": [
         {
@@ -1772,6 +1845,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 1803,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1150,
       "recipe": [
         {
@@ -1807,6 +1882,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 1212,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1394,
       "recipe": [
         {
@@ -1842,6 +1919,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 9804,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3366,
       "recipe": [
         {
@@ -1874,6 +1953,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 5436,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 2091,
       "recipe": [
         {
@@ -1911,6 +1992,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 6186,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 2784,
       "recipe": [
         {
@@ -1951,6 +2034,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 909,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1320,
       "recipe": [
         {
@@ -1983,6 +2068,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 1350,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 5280,
       "recipe": [
         {
@@ -2015,6 +2102,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 1188,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1980,
       "recipe": [
         {
@@ -2047,6 +2136,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 8193,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -2084,6 +2175,8 @@
       "category": "Flight",
       "grade": 3,
       "price": 9867,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -2120,6 +2213,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 4326,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 100,
       "recipe": [
         {
@@ -2152,6 +2247,8 @@
       "category": "Flight",
       "grade": 4,
       "price": 5301,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -2189,6 +2286,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 162,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 175,
       "recipe": [
         {
@@ -2221,6 +2320,8 @@
       "category": "Weapon",
       "grade": 4,
       "price": 13098,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 2500,
       "recipe": [
         {
@@ -2269,6 +2370,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 2178,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 880,
       "recipe": [
         {
@@ -2317,6 +2420,8 @@
       "category": "Flight",
       "grade": 3,
       "price": 11118,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -2349,6 +2454,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 1884,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -2381,6 +2488,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 459,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -2413,6 +2522,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 351,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -2445,6 +2556,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 486,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -2477,6 +2590,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 405,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -2509,6 +2624,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 198,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 225,
       "recipe": [
         {
@@ -2541,6 +2658,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 306,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 450,
       "recipe": [
         {
@@ -2573,6 +2692,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 4281,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -2600,6 +2721,8 @@
       "category": "Control",
       "grade": 0,
       "price": 1191,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 270,
       "recipe": [
         {
@@ -2647,6 +2770,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 2376,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 240,
       "recipe": [
         {
@@ -2688,6 +2813,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 216,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 225,
       "recipe": [
         {
@@ -2720,6 +2847,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 9219,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 90,
       "recipe": [
         {
@@ -2761,6 +2890,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 522,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -2804,6 +2935,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 19536,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100,
       "recipe": [
         {
@@ -2852,6 +2985,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 906,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 270,
       "recipe": [
         {
@@ -2884,6 +3019,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 2520,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 540,
       "recipe": [
         {
@@ -2916,6 +3053,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 585,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 360,
       "recipe": [
         {
@@ -2948,6 +3087,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 225,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 270,
       "recipe": [
         {
@@ -2980,6 +3121,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 381,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -3007,6 +3150,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 75,
       "FireData": {
         "bullet_spray_variance": 0.1,
@@ -3033,6 +3178,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 258,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -3065,6 +3212,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 870,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 697,
       "recipe": [
         {
@@ -3097,6 +3246,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 60,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -3112,6 +3263,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 50,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -3127,6 +3280,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 100,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -3142,6 +3297,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 50,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -3157,6 +3314,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 54,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 156,
       "recipe": [
         {
@@ -3184,6 +3343,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 7719,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 280,
       "recipe": [
         {
@@ -3221,6 +3382,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 540,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 312,
       "recipe": [
         {
@@ -3248,6 +3411,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 279,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -3280,6 +3445,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 225,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -3312,6 +3479,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 333,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -3344,6 +3513,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 330,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -3381,6 +3552,8 @@
       "category": "Accessory",
       "grade": 4,
       "price": 258,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -3413,6 +3586,8 @@
       "category": "Standard",
       "grade": 3,
       "price": 732,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -3445,6 +3620,8 @@
       "category": "Standard",
       "grade": 4,
       "price": 1203,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -3477,6 +3654,8 @@
       "category": "Standard",
       "grade": 4,
       "price": 1935,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2400,
       "recipe": [
         {
@@ -3509,6 +3688,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 468,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -3541,6 +3722,8 @@
       "category": "Standard",
       "grade": 3,
       "price": 651,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 550,
       "recipe": [
         {
@@ -3573,6 +3756,8 @@
       "category": "Standard",
       "grade": 3,
       "price": 804,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -3605,6 +3790,8 @@
       "category": "Standard",
       "grade": 4,
       "price": 912,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -3642,6 +3829,8 @@
       "category": "Standard",
       "grade": 3,
       "price": 723,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -3674,6 +3863,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 96,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -3701,6 +3892,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 261,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -3728,6 +3921,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 300,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -3755,6 +3950,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 123,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -3782,6 +3979,8 @@
       "category": "Power",
       "grade": 1,
       "price": 4059,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -3822,6 +4021,8 @@
       "category": "Power",
       "grade": 0,
       "price": 660,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -3852,6 +4053,8 @@
       "category": "Power",
       "grade": 0,
       "price": 1071,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -3892,6 +4095,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 297,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 750,
       "recipe": [
         {
@@ -3919,6 +4124,8 @@
       "category": "Standard",
       "grade": 3,
       "price": 378,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -3946,6 +4153,8 @@
       "category": "Standard",
       "grade": 4,
       "price": 459,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1250,
       "recipe": [
         {
@@ -3973,6 +4182,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 537,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -4005,6 +4216,8 @@
       "category": "Manufacturing",
       "grade": 3,
       "price": 978,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 9000,
       "recipe": [
         {
@@ -4037,6 +4250,8 @@
       "category": "Manufacturing",
       "grade": 0,
       "price": 180,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1500,
       "recipe": [
         {
@@ -4064,6 +4279,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 321,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -4096,6 +4313,8 @@
       "category": "Power",
       "grade": 0,
       "price": 1149,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -4128,6 +4347,8 @@
       "category": "Power",
       "grade": 2,
       "price": 8253,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -4165,6 +4386,8 @@
       "category": "Accessory",
       "grade": 4,
       "price": 34863,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -4197,6 +4420,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 350,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -4212,6 +4437,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 75,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -4227,6 +4454,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 200,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -4242,6 +4471,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 137,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -4257,6 +4488,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -4272,6 +4505,8 @@
       "category": "Power",
       "grade": 0,
       "price": 1308,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 2614,
       "recipe": [
         {
@@ -4307,6 +4542,8 @@
       "category": "Power",
       "grade": 2,
       "price": 5946,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1296,
       "recipe": [
         {
@@ -4342,6 +4579,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 144,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -4372,6 +4611,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 200,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -4387,6 +4628,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 252,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -4419,6 +4662,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 306,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -4451,6 +4696,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 99,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -4466,6 +4713,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 192,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -4493,6 +4742,8 @@
       "category": "Manufacturing",
       "grade": 3,
       "price": 267,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -4525,6 +4776,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 1356,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -4552,6 +4805,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 405,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 312,
       "recipe": [
         {
@@ -4579,6 +4834,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 222,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -4606,6 +4863,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 804,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 880,
       "recipe": [
         {
@@ -4638,6 +4897,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 642,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 871,
       "recipe": [
         {
@@ -4665,6 +4926,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 243,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -4697,6 +4960,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 588,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1901,
       "recipe": [
         {
@@ -4724,6 +4989,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 186,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 220,
       "recipe": [
         {
@@ -4767,6 +5034,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 873,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1320,
       "recipe": [
         {
@@ -4799,6 +5068,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 200,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "ModuleDrill": {
         "damape_per_second": 750.0
@@ -4817,6 +5088,8 @@
       "category": "Power",
       "grade": 2,
       "price": 1194,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -4852,6 +5125,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 1221,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -4884,6 +5159,8 @@
       "category": "Power",
       "grade": 2,
       "price": 19533,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 240,
       "recipe": [
         {
@@ -4934,6 +5211,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 1200,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 750
     },
     {
@@ -4949,6 +5228,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 1266,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1220,
       "recipe": [
         {
@@ -4990,6 +5271,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 2124,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3600,
       "recipe": [
         {
@@ -5022,6 +5305,8 @@
       "category": "Power",
       "grade": 1,
       "price": 8046,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 240,
       "recipe": [
         {
@@ -5067,6 +5352,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 774,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 125,
       "recipe": [
         {
@@ -5094,6 +5381,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 1245,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 697,
       "recipe": [
         {
@@ -5126,6 +5415,8 @@
       "category": "Power",
       "grade": 2,
       "price": 8472,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 950,
       "recipe": [
         {
@@ -5166,6 +5457,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 1953,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 990,
       "recipe": [
         {
@@ -5201,6 +5494,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -5216,6 +5511,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 90,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 200
     },
     {
@@ -5231,6 +5528,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 50,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -5246,6 +5545,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -5261,6 +5562,8 @@
       "category": "Control",
       "grade": 2,
       "price": 5496,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -5308,6 +5611,8 @@
       "category": "Power",
       "grade": 0,
       "price": 1890,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 3960,
       "recipe": [
         {
@@ -5348,6 +5653,8 @@
       "category": "Power",
       "grade": 1,
       "price": 1389,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3200,
       "recipe": [
         {
@@ -5383,6 +5690,8 @@
       "category": "Control",
       "grade": 2,
       "price": 5658,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 784,
       "recipe": [
         {
@@ -5422,6 +5731,8 @@
       "category": "Manufacturing",
       "grade": 0,
       "price": 594,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1742,
       "recipe": [
         {
@@ -5449,6 +5760,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 870,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 871,
       "recipe": [
         {
@@ -5481,6 +5794,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 2088,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4356,
       "recipe": [
         {
@@ -5513,6 +5828,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 3288,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 7200,
       "recipe": [
         {
@@ -5545,6 +5862,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 34863,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1742,
       "recipe": [
         {
@@ -5577,6 +5896,8 @@
       "category": "Power",
       "grade": 2,
       "price": 12843,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 990,
       "recipe": [
         {
@@ -5614,6 +5935,8 @@
       "category": "Power",
       "grade": 0,
       "price": 25000,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 225
     },
     {
@@ -5629,6 +5952,8 @@
       "category": "Control",
       "grade": 2,
       "price": 4821,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -5676,6 +6001,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 1236,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -5713,6 +6040,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 1302,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -5750,6 +6079,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 2259,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3000,
       "recipe": [
         {
@@ -5782,6 +6113,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 2430,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 270,
       "recipe": [
         {
@@ -5819,6 +6152,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 2382,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 225,
       "recipe": [
         {
@@ -5856,6 +6191,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 34863,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 880,
       "recipe": [
         {
@@ -5888,6 +6225,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 279,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 225,
       "recipe": [
         {
@@ -5920,6 +6259,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 252,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 225,
       "recipe": [
         {
@@ -5952,6 +6293,8 @@
       "category": "Power",
       "grade": 2,
       "price": 13584,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -5994,6 +6337,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6009,6 +6354,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6024,6 +6371,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6039,6 +6388,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6054,6 +6405,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6069,6 +6422,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6084,6 +6439,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6099,6 +6456,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6114,6 +6473,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6129,6 +6490,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6144,6 +6507,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6159,6 +6524,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6174,6 +6541,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6189,6 +6558,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6204,6 +6575,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6219,6 +6592,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6234,6 +6609,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 636,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -6266,6 +6643,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 438,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -6298,6 +6677,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 306,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 225,
       "recipe": [
         {
@@ -6330,6 +6711,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 1239,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -6357,6 +6740,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 8433,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -6394,6 +6779,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 96,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 135,
       "recipe": [
         {
@@ -6421,6 +6808,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 123,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 135,
       "recipe": [
         {
@@ -6448,6 +6837,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 50,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -6463,6 +6854,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 1017,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3000,
       "recipe": [
         {
@@ -6495,6 +6888,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6510,6 +6905,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6525,6 +6922,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6540,6 +6939,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6555,6 +6956,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6570,6 +6973,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6585,6 +6990,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6600,6 +7007,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -6615,6 +7024,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 573,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -6652,6 +7063,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 390,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -6684,6 +7097,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 399,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -6716,6 +7131,8 @@
       "category": "Control",
       "grade": 0,
       "price": 1662,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -6763,6 +7180,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 906,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -6800,6 +7219,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 549,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -6832,6 +7253,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 783,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -6869,6 +7292,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1116,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -6906,6 +7331,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 1710,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3000,
       "recipe": [
         {
@@ -6938,6 +7365,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 1920,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3750,
       "recipe": [
         {
@@ -6975,6 +7404,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 1152,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1125,
       "recipe": [
         {
@@ -7012,6 +7443,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 21798,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -7054,6 +7487,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 1194,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2250,
       "recipe": [
         {
@@ -7086,6 +7521,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 22206,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -7128,6 +7565,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 27837,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 750,
       "recipe": [
         {
@@ -7170,6 +7609,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 20946,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 3000,
       "recipe": [
         {
@@ -7223,6 +7664,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 9804,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 6875,
       "recipe": [
         {
@@ -7255,6 +7698,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 786,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 650,
       "recipe": [
         {
@@ -7287,6 +7732,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 309,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -7319,6 +7766,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 630,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -7351,6 +7800,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 14928,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -7393,6 +7844,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 966,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 750,
       "recipe": [
         {
@@ -7430,6 +7883,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 876,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -7467,6 +7922,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 22188,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -7520,6 +7977,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 3435,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -7563,6 +8022,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 3378,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -7600,6 +8061,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 858,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -7632,6 +8095,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 888,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -7664,6 +8129,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 3225,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -7712,6 +8179,8 @@
       "category": "Power",
       "grade": 0,
       "price": 7674,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -7757,6 +8226,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 3744,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -7805,6 +8276,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 15261,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -7851,6 +8324,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 20847,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 2800,
       "recipe": [
         {
@@ -7904,6 +8379,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 5955,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -7952,6 +8429,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 150,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -7984,6 +8463,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 384,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -8021,6 +8502,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 525,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -8048,6 +8531,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 453,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -8085,6 +8570,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 396,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -8128,6 +8615,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 480,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -8160,6 +8649,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 786,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 225,
       "recipe": [
         {
@@ -8197,6 +8688,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 321,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -8229,6 +8722,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 1674,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 10800,
       "recipe": [
         {
@@ -8266,6 +8761,8 @@
       "category": "Control",
       "grade": 1,
       "price": 15636,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1500,
       "recipe": [
         {
@@ -8323,6 +8820,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 2046,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4356,
       "recipe": [
         {
@@ -8360,6 +8859,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 4764,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4356,
       "recipe": [
         {
@@ -8397,6 +8898,8 @@
       "category": "Control",
       "grade": 1,
       "price": 2388,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -8444,6 +8947,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 33960,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 100,
       "recipe": [
         {
@@ -8497,6 +9002,8 @@
       "category": "Standard",
       "grade": 3,
       "price": 642,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -8529,6 +9036,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 276,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -8556,6 +9065,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 252,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -8583,6 +9094,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 258,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -8615,6 +9128,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 204,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -8647,6 +9162,8 @@
       "category": "Power",
       "grade": 4,
       "price": 12582,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -8687,6 +9204,8 @@
       "category": "Manufacturing",
       "grade": 4,
       "price": 13143,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -8724,6 +9243,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 7959,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 750,
       "recipe": [
         {
@@ -8761,6 +9282,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 400,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "ModuleDrill": {
         "damape_per_second": 50.0
@@ -8779,6 +9302,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 5010,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 10000,
       "recipe": [
         {
@@ -8806,6 +9331,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 744,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 8000,
       "recipe": [
         {
@@ -8838,6 +9365,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 500,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150
     },
     {
@@ -8853,6 +9382,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 250,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -8868,6 +9399,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 1332,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -8895,6 +9428,8 @@
       "category": "Manufacturing",
       "grade": 3,
       "price": 2592,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -8922,6 +9457,8 @@
       "category": "Manufacturing",
       "grade": 4,
       "price": 6156,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -8949,6 +9486,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 23181,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -8991,6 +9530,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 411,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 8000,
       "recipe": [
         {
@@ -9023,6 +9564,8 @@
       "category": "Weapon",
       "grade": 4,
       "price": 43878,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 8000,
       "recipe": [
         {
@@ -9076,6 +9619,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 200,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -9091,6 +9636,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 200,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -9106,6 +9653,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 500,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500
     },
     {
@@ -9121,6 +9670,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 500,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500
     },
     {
@@ -9136,6 +9687,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1000,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500
     },
     {
@@ -9151,6 +9704,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1000,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 750
     },
     {
@@ -9166,6 +9721,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1500,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 750
     },
     {
@@ -9181,6 +9738,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1500,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500
     },
     {
@@ -9196,6 +9755,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1500,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 750
     },
     {
@@ -9211,6 +9772,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 500,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -9226,6 +9789,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 250,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 625
     },
     {
@@ -9241,6 +9806,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 750,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1250
     },
     {
@@ -9256,6 +9823,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 10086,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3366,
       "recipe": [
         {
@@ -9288,6 +9857,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 10368,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4158,
       "recipe": [
         {
@@ -9320,6 +9891,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 1809,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1220,
       "recipe": [
         {
@@ -9361,6 +9934,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 1899,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1394,
       "recipe": [
         {
@@ -9399,6 +9974,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 1893,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1150,
       "recipe": [
         {
@@ -9434,6 +10011,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 450,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -9466,6 +10045,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 9798,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 625,
       "recipe": [
         {
@@ -9503,6 +10084,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 324,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 330,
       "recipe": [
         {
@@ -9535,6 +10118,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 378,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 330,
       "recipe": [
         {
@@ -9567,6 +10152,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 10110,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -9599,6 +10186,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 2946,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 540,
       "recipe": [
         {
@@ -9631,6 +10220,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 2802,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 540,
       "recipe": [
         {
@@ -9663,6 +10254,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 3228,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 540,
       "recipe": [
         {
@@ -9695,6 +10288,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 19284,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 3000,
       "recipe": [
         {
@@ -9727,6 +10322,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 19596,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1250,
       "recipe": [
         {
@@ -9764,6 +10361,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 477,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -9796,6 +10395,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 216,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -9818,6 +10419,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 432,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -9840,6 +10443,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 552,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -9862,6 +10467,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 648,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -9884,6 +10491,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 720,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -9906,6 +10515,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 1800,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -9928,6 +10539,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 1992,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -9950,6 +10563,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 2160,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -9972,6 +10587,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 5400,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -9994,6 +10611,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 5592,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10016,6 +10635,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 5760,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10038,6 +10659,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 648,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10060,6 +10683,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 1296,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10082,6 +10707,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 1656,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10104,6 +10731,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 1944,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10126,6 +10755,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 2160,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10148,6 +10779,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 5400,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10170,6 +10803,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 5976,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10192,6 +10827,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 6480,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10214,6 +10851,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 16200,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10236,6 +10875,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 16776,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10258,6 +10899,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 17280,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10280,6 +10923,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 1728,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10302,6 +10947,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 3456,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10324,6 +10971,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 4416,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10346,6 +10995,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 5184,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10368,6 +11019,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 5760,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10390,6 +11043,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 14400,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10412,6 +11067,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 15936,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10434,6 +11091,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 17280,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10456,6 +11115,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 43200,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10478,6 +11139,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 44736,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10500,6 +11163,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 46080,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10522,6 +11187,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 3240,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10544,6 +11211,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 6480,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10566,6 +11235,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 8280,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10588,6 +11259,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 9720,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10610,6 +11283,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 10800,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10632,6 +11307,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 27000,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10654,6 +11331,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 29880,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10676,6 +11355,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 32400,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10698,6 +11379,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 81000,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10720,6 +11403,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 83880,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10742,6 +11427,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 86400,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -10764,6 +11451,8 @@
       "category": "Power",
       "grade": 1,
       "price": 19389,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -10809,6 +11498,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 34863,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1500,
       "recipe": [
         {
@@ -10841,6 +11532,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 750,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -10873,6 +11566,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 828,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000
     },
     {
@@ -10888,6 +11583,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 711,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000
     },
     {
@@ -10903,6 +11600,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1332,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000
     },
     {
@@ -10918,6 +11617,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1422,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 5000
     },
     {
@@ -10933,6 +11634,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 2961,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 50,
       "recipe": [
         {
@@ -10964,6 +11667,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 810,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 625,
       "recipe": [
         {
@@ -10991,6 +11696,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 1350,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -11018,6 +11725,8 @@
       "category": "Control",
       "grade": 2,
       "price": 5700,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -11065,6 +11774,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 2040,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4356,
       "recipe": [
         {
@@ -11097,6 +11808,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 1704,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -11134,6 +11847,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 9906,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 380,
       "recipe": [
         {
@@ -11166,6 +11881,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 1428,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 7200,
       "recipe": [
         {
@@ -11203,6 +11920,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 618,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2178,
       "recipe": [
         {
@@ -11240,6 +11959,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 2100,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 225,
       "recipe": [
         {
@@ -11272,6 +11993,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 1956,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 225,
       "recipe": [
         {
@@ -11299,6 +12022,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 321,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -11336,6 +12061,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 10833,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 4752,
       "recipe": [
         {
@@ -11373,6 +12100,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 189,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -11405,6 +12134,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 423,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 450,
       "recipe": [
         {
@@ -11437,6 +12168,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 477,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 900,
       "recipe": [
         {
@@ -11469,6 +12202,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 612,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1350,
       "recipe": [
         {
@@ -11501,6 +12236,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 585,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1350,
       "recipe": [
         {
@@ -11533,6 +12270,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 396,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -11565,6 +12304,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 9363,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 10000,
       "recipe": [
         {
@@ -11602,6 +12343,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 7863,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 220,
       "recipe": [
         {
@@ -11639,6 +12382,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 450,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -11671,6 +12416,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 477,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -11703,6 +12450,8 @@
       "category": "Wheel",
       "grade": 3,
       "price": 1698,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -11735,6 +12484,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 2376,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -11767,6 +12518,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 500,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -11782,6 +12535,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 500,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -11797,6 +12552,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 500,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -11812,6 +12569,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 500,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 150
     },
     {
@@ -11827,6 +12586,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1000,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1000
     },
     {
@@ -11842,6 +12603,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1000,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1000
     },
     {
@@ -11857,6 +12620,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1000,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 500
     },
     {
@@ -11872,6 +12637,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 500,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -11887,6 +12654,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 500,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -11902,6 +12671,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 500,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250
     },
     {
@@ -11917,6 +12688,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1000,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1000
     },
     {
@@ -11932,6 +12705,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1000,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1000
     },
     {
@@ -11947,6 +12722,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 279,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 100,
       "recipe": [
         {
@@ -11974,6 +12751,8 @@
       "category": "Accessory",
       "grade": 4,
       "price": 984,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -12001,6 +12780,8 @@
       "category": "Power",
       "grade": 0,
       "price": 2778,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 5000,
       "recipe": [
         {
@@ -12036,6 +12817,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 408,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2614,
       "recipe": [
         {
@@ -12063,6 +12846,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 846,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 5227,
       "recipe": [
         {
@@ -12095,6 +12880,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 234,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1742,
       "recipe": [
         {
@@ -12122,6 +12909,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 168,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 396,
       "recipe": [
         {
@@ -12149,6 +12938,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 342,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 792,
       "recipe": [
         {
@@ -12176,6 +12967,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 114,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 396,
       "recipe": [
         {
@@ -12203,6 +12996,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 282,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 396,
       "recipe": [
         {
@@ -12230,6 +13025,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 174,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 396,
       "recipe": [
         {
@@ -12257,6 +13054,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 456,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1584,
       "recipe": [
         {
@@ -12284,6 +13083,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 684,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2376,
       "recipe": [
         {
@@ -12311,6 +13112,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 228,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 396,
       "recipe": [
         {
@@ -12338,6 +13141,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 288,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 396,
       "recipe": [
         {
@@ -12365,6 +13170,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 5481,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 10560,
       "recipe": [
         {
@@ -12402,6 +13209,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 2160,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 10890,
       "recipe": [
         {
@@ -12439,6 +13248,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 1677,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 16000,
       "recipe": [
         {
@@ -12476,6 +13287,8 @@
       "category": "Manufacturing",
       "grade": 0,
       "price": 915,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2400,
       "recipe": [
         {
@@ -12513,6 +13326,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 1293,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2400,
       "recipe": [
         {
@@ -12550,6 +13365,8 @@
       "category": "Weapon",
       "grade": 4,
       "price": 13008,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -12598,6 +13415,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 10000,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 350,
       "FireData": {
         "bullet_spray_variance": 0.0,
@@ -12624,6 +13443,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 6753,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -12661,6 +13482,8 @@
       "category": "Weapon",
       "grade": 3,
       "price": 3132,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -12704,6 +13527,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 2094,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -12747,6 +13572,8 @@
       "category": "Manufacturing",
       "grade": 0,
       "price": 414,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -12779,6 +13606,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 702,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -12811,6 +13640,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 250,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -12826,6 +13657,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 250,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -12841,6 +13674,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 250,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -12856,6 +13691,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 250,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -12871,6 +13708,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 250,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -12886,6 +13725,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 250,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -12901,6 +13742,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 250,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -12916,6 +13759,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 250,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -12931,6 +13776,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 250,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100
     },
     {
@@ -12946,6 +13793,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 200,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -12961,6 +13810,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 100,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 50
     },
     {
@@ -12976,6 +13827,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 500,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2000
     },
     {
@@ -12991,6 +13844,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 500,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000
     },
     {
@@ -13006,6 +13861,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 450,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -13038,6 +13895,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 261,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -13065,6 +13924,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 8808,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -13102,6 +13963,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 2916,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -13139,6 +14002,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 5460,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 2000,
       "FireData": {
         "bullet_spray_variance": 0.1,
@@ -13165,6 +14030,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 7461,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -13206,6 +14073,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 1209,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -13254,6 +14123,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 2328,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 350,
       "recipe": [
         {
@@ -13297,6 +14168,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 3663,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 720,
       "recipe": [
         {
@@ -13340,6 +14213,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 2856,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 350,
       "recipe": [
         {
@@ -13388,6 +14263,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 12264,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 5000,
       "recipe": [
         {
@@ -13425,6 +14302,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 31845,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 5500,
       "recipe": [
         {
@@ -13478,6 +14357,8 @@
       "category": "Weapon",
       "grade": 4,
       "price": 20184,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 7050,
       "recipe": [
         {
@@ -13531,6 +14412,8 @@
       "category": "Power",
       "grade": 1,
       "price": 2658,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -13561,6 +14444,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 2256,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 100,
       "recipe": [
         {
@@ -13609,6 +14494,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 3321,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1188,
       "recipe": [
         {
@@ -13646,6 +14533,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 3237,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -13694,6 +14583,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 12204,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 3168,
       "recipe": [
         {
@@ -13729,6 +14620,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 12108,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 10625,
       "recipe": [
         {
@@ -13766,6 +14659,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 9933,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1750,
       "recipe": [
         {
@@ -13814,6 +14709,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 4386,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 2376,
       "recipe": [
         {
@@ -13860,6 +14757,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 10662,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1500,
       "recipe": [
         {
@@ -13908,6 +14807,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 6795,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -13945,6 +14846,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1050,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -13977,6 +14880,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1881,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -14009,6 +14914,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2418,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -14041,6 +14948,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 3174,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4500,
       "recipe": [
         {
@@ -14073,6 +14982,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 4077,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 750,
       "recipe": [
         {
@@ -14121,6 +15032,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 3036,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 350,
       "recipe": [
         {
@@ -14169,6 +15082,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 9456,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 100,
       "recipe": [
         {
@@ -14212,6 +15127,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 3912,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 7040,
       "recipe": [
         {
@@ -14255,6 +15172,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 20826,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 935,
       "recipe": [
         {
@@ -14296,6 +15215,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 7869,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 750,
       "recipe": [
         {
@@ -14339,6 +15260,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 3870,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1894,
       "recipe": [
         {
@@ -14374,6 +15297,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 5853,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 3394,
       "recipe": [
         {
@@ -14414,6 +15339,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 1587,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -14450,6 +15377,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 9999,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -14498,6 +15427,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 10095,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 600
     },
     {
@@ -14513,6 +15444,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 4446,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 13940,
       "recipe": [
         {
@@ -14550,6 +15483,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1479,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1600,
       "recipe": [
         {
@@ -14587,6 +15522,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2052,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2400,
       "recipe": [
         {
@@ -14624,6 +15561,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 333,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 225,
       "recipe": [
         {
@@ -14656,6 +15595,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 495,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 900,
       "recipe": [
         {
@@ -14688,6 +15629,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 522,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 900,
       "recipe": [
         {
@@ -14720,6 +15663,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 8013,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -14757,6 +15702,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 8094,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 2200,
       "recipe": [
         {
@@ -14794,6 +15741,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 24999,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1500,
       "recipe": [
         {
@@ -14847,6 +15796,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 19956,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 4400,
       "recipe": [
         {
@@ -14889,6 +15840,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 768,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -14926,6 +15879,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 837,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -14963,6 +15918,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 849,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -15000,6 +15957,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 624,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -15037,6 +15996,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 912,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -15074,6 +16035,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1509,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -15111,6 +16074,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2106,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1600,
       "recipe": [
         {
@@ -15148,6 +16113,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2703,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -15185,6 +16152,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 534,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -15222,6 +16191,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 768,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -15259,6 +16230,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1365,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -15296,6 +16269,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 1962,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1600,
       "recipe": [
         {
@@ -15333,6 +16308,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2559,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -15370,6 +16347,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1356,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1600,
       "recipe": [
         {
@@ -15407,6 +16386,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 2730,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2400,
       "recipe": [
         {
@@ -15444,6 +16425,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 2649,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2400,
       "recipe": [
         {
@@ -15481,6 +16464,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 3924,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3200,
       "recipe": [
         {
@@ -15518,6 +16503,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 3843,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3200,
       "recipe": [
         {
@@ -15555,6 +16542,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 5118,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -15592,6 +16581,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 5037,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -15629,6 +16620,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1275,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -15666,6 +16659,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1590,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1600,
       "recipe": [
         {
@@ -15703,6 +16698,8 @@
       "category": "Control",
       "grade": 0,
       "price": 2163,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -15750,6 +16747,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 1152,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -15787,6 +16786,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 1935,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -15824,6 +16825,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 2073,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -15861,6 +16864,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 3726,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -15898,6 +16903,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 3864,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -15935,6 +16942,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2187,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -15972,6 +16981,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2784,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2400,
       "recipe": [
         {
@@ -16009,6 +17020,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 1899,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -16046,6 +17059,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 2070,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -16083,6 +17098,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 723,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -16120,6 +17137,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 3345,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 900,
       "recipe": [
         {
@@ -16157,6 +17176,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 4806,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -16194,6 +17215,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 19224,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -16231,6 +17254,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 6282,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -16258,6 +17283,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 7209,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -16295,6 +17322,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 7236,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -16332,6 +17361,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 12015,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -16369,6 +17400,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 12042,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -16406,6 +17439,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 5874,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 150,
       "recipe": [
         {
@@ -16442,6 +17477,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 9612,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -16479,6 +17516,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 4779,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -16516,6 +17555,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 2403,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -16553,6 +17594,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 9507,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -16595,6 +17638,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 8145,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -16632,6 +17677,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 16290,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -16669,6 +17716,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1014,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1500,
       "recipe": [
         {
@@ -16706,6 +17755,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 4470,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -16738,6 +17789,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1194,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -16775,6 +17828,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1791,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 900,
       "recipe": [
         {
@@ -16812,6 +17867,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2388,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -16849,6 +17906,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2985,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1500,
       "recipe": [
         {
@@ -16886,6 +17945,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1536,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -16923,6 +17984,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 3582,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1800,
       "recipe": [
         {
@@ -16960,6 +18023,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 4776,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2700,
       "recipe": [
         {
@@ -16997,6 +18062,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 5889,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3600,
       "recipe": [
         {
@@ -17034,6 +18101,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 3681,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -17077,6 +18146,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 480,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -17109,6 +18180,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 597,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -17146,6 +18219,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 7638,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -17183,6 +18258,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 516,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -17215,6 +18292,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 1002,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 900,
       "recipe": [
         {
@@ -17252,6 +18331,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 1428,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2400,
       "recipe": [
         {
@@ -17289,6 +18370,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 3207,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -17332,6 +18415,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 5103,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 750,
       "recipe": [
         {
@@ -17380,6 +18465,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 24258,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 1500,
       "recipe": [
         {
@@ -17433,6 +18520,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 11133,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 360,
       "recipe": [
         {
@@ -17465,6 +18554,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 6990,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -17497,6 +18588,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 20826,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -17534,6 +18627,8 @@
       "category": "Accessory",
       "grade": 1,
       "price": 2376,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -17566,6 +18661,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 19842,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 720,
       "recipe": [
         {
@@ -17608,6 +18705,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 3492,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 75,
       "recipe": [
         {
@@ -17639,6 +18738,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 9342,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 360,
       "recipe": [
         {
@@ -17681,6 +18782,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 3759,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -17718,6 +18821,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 3351,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -17755,6 +18860,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 1032,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -17787,6 +18894,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 1176,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -17824,6 +18933,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 315,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -17856,6 +18967,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 630,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -17888,6 +19001,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 711,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -17920,6 +19035,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 10482,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -17956,6 +19073,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 324,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 350,
       "recipe": [
         {
@@ -17988,6 +19107,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 510,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1188,
       "recipe": [
         {
@@ -18015,6 +19136,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 396,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1188,
       "recipe": [
         {
@@ -18042,6 +19165,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 486,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -18074,6 +19199,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 858,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -18111,6 +19238,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 912,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -18148,6 +19277,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 384,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -18185,6 +19316,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 453,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -18222,6 +19355,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 3615,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -18265,6 +19400,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 29922,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -18316,6 +19453,8 @@
       "category": "Power",
       "grade": 2,
       "price": 13191,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -18361,6 +19500,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 240,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -18393,6 +19534,8 @@
       "category": "Weapon",
       "grade": 1,
       "price": 13998,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 750,
       "recipe": [
         {
@@ -18439,6 +19582,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 7338,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -18487,6 +19632,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 5661,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -18524,6 +19671,8 @@
       "category": "Manufacturing",
       "grade": 0,
       "price": 10614,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1250,
       "recipe": [
         {
@@ -18561,6 +19710,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 9639,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 3000,
       "recipe": [
         {
@@ -18598,6 +19749,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 1548,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -18630,6 +19783,8 @@
       "category": "Power",
       "grade": 1,
       "price": 3213,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 2500,
       "recipe": [
         {
@@ -18662,6 +19817,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 5970,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3600,
       "recipe": [
         {
@@ -18699,6 +19856,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 8955,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 8400,
       "recipe": [
         {
@@ -18736,6 +19895,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 11940,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 14400,
       "recipe": [
         {
@@ -18773,6 +19934,8 @@
       "category": "Power",
       "grade": 0,
       "price": 2466,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -18803,6 +19966,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 2781,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -18840,6 +20005,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 5010,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -18867,6 +20034,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 32451,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1440,
       "recipe": [
         {
@@ -18909,6 +20078,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 8577,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 180,
       "recipe": [
         {
@@ -18951,6 +20122,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 1644,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -18988,6 +20161,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 34863,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1250,
       "recipe": [
         {
@@ -19020,6 +20195,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 30000,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 750,
       "FireData": {
         "bullet_spray_variance": 0.05,
@@ -19046,6 +20223,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 4833,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -19083,6 +20262,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 4860,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -19120,6 +20301,8 @@
       "category": "Power",
       "grade": 1,
       "price": 7485,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 400,
       "recipe": [
         {
@@ -19165,6 +20348,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 2226,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -19203,6 +20388,8 @@
       "category": "Weapon",
       "grade": 2,
       "price": 24645,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -19256,6 +20443,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 10206,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 750,
       "recipe": [
         {
@@ -19302,6 +20491,8 @@
       "category": "Flight",
       "grade": 0,
       "price": 24276,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -19344,6 +20535,8 @@
       "category": "Flight",
       "grade": 1,
       "price": 30105,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -19386,6 +20579,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 15552,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 720,
       "recipe": [
         {
@@ -19418,6 +20613,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 5655,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -19455,6 +20652,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 5373,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -19492,6 +20691,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 501,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -19529,6 +20730,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1203,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1200,
       "recipe": [
         {
@@ -19566,6 +20769,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1518,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3200,
       "recipe": [
         {
@@ -19603,6 +20808,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2115,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3600,
       "recipe": [
         {
@@ -19640,6 +20847,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 492,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -19677,6 +20886,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 2355,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -19714,6 +20925,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 3672,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -19751,6 +20964,8 @@
       "category": "Wheel",
       "grade": 1,
       "price": 4428,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -19788,6 +21003,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 957,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 300,
       "recipe": [
         {
@@ -19815,6 +21032,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 1914,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 871,
       "recipe": [
         {
@@ -19842,6 +21061,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 957,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -19869,6 +21090,8 @@
       "category": "Weapon",
       "grade": 0,
       "price": 21645,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 2000,
       "FireData": {
         "bullet_spray_variance": 0.125,
@@ -19895,6 +21118,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 1134,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -19917,6 +21142,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 2268,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -19939,6 +21166,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 2898,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -19961,6 +21190,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 3402,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -19983,6 +21214,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 3780,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -20005,6 +21238,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 9450,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -20027,6 +21262,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 10458,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -20049,6 +21286,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 11340,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -20071,6 +21310,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 28350,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -20093,6 +21334,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 29358,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -20115,6 +21358,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 30240,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 250,
       "recipe": [
         {
@@ -20137,6 +21382,8 @@
       "category": "Control",
       "grade": 2,
       "price": 5562,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 800,
       "recipe": [
         {
@@ -20184,6 +21431,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 1509,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -20221,6 +21470,8 @@
       "category": "Accessory",
       "grade": 2,
       "price": 4326,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 500,
       "recipe": [
         {
@@ -20253,6 +21504,8 @@
       "category": "Manufacturing",
       "grade": 1,
       "price": 9966,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -20290,6 +21543,8 @@
       "category": "Flight",
       "grade": 2,
       "price": 6642,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 600,
       "recipe": [
         {
@@ -20327,6 +21582,8 @@
       "category": "Manufacturing",
       "grade": 2,
       "price": 23181,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 1500,
       "recipe": [
         {
@@ -20369,6 +21626,8 @@
       "category": "Accessory",
       "grade": 0,
       "price": 1212,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 200,
       "recipe": [
         {
@@ -20401,6 +21660,8 @@
       "category": "Power",
       "grade": 2,
       "price": 14061,
+      "rarity": "Rare",
+      "blocklimit_cost": 1,
       "health": 7200,
       "recipe": [
         {
@@ -20441,6 +21702,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2295,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -20473,6 +21736,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 2016,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -20510,6 +21775,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 2574,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 5000,
       "recipe": [
         {
@@ -20547,6 +21814,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 2970,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 6000,
       "recipe": [
         {
@@ -20579,6 +21848,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 612,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 750,
       "recipe": [
         {
@@ -20616,6 +21887,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1008,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -20653,6 +21926,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1341,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -20690,6 +21965,8 @@
       "category": "Standard",
       "grade": 2,
       "price": 1764,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3000,
       "recipe": [
         {
@@ -20722,6 +21999,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1449,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 3000,
       "recipe": [
         {
@@ -20759,6 +22038,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 891,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -20796,6 +22077,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1125,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 2000,
       "recipe": [
         {
@@ -20833,6 +22116,8 @@
       "category": "Standard",
       "grade": 0,
       "price": 1062,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 1000,
       "recipe": [
         {
@@ -20870,6 +22155,8 @@
       "category": "Standard",
       "grade": 1,
       "price": 1782,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 4000,
       "recipe": [
         {
@@ -20907,6 +22194,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 17706,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 15000,
       "recipe": [
         {
@@ -20939,6 +22228,8 @@
       "category": "Wheel",
       "grade": 2,
       "price": 18834,
+      "rarity": "Common",
+      "blocklimit_cost": 1,
       "health": 10000,
       "recipe": [
         {
@@ -20971,6 +22262,8 @@
       "category": "Wheel",
       "grade": 0,
       "price": 4980,
+      "rarity": "Uncommon",
+      "blocklimit_cost": 1,
       "health": 3442,
       "recipe": [
         {
