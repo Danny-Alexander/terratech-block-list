@@ -46,8 +46,11 @@ function wikiBlockInfoboxText(b) {
     result += "| mass            = " + b.mass + "\n"; //The weight of the entire block.
     result += "| corp            = " + b.corp + "\n"; //Corporation the block is assigned to. 
     result += "| license         = " + (b.grade + 1) + "\n"; //The associated license in the corp the block belongs to
-    result += "| rarity          = " + "#no-data#" + "\n"; //The rarity of the Block
-    result += "| blocklimit      = " + "#no-data#" + "\n"; //The amount of the block limit the block takes up on consoles
+    result += (b.rarity) ? 
+        "| rarity          = " + b.rarity + "\n" : ""; //The rarity of the Block
+    
+    // All blocks have blocklimit_cost = 1 in data file so I don't know what to add for this.
+    // result += "| blocklimit      = " + "#no-data#" + "\n"; //The amount of the block limit the block takes up on consoles
 
     if (b.recipe) {
         var index, ingredient;
@@ -58,8 +61,12 @@ function wikiBlockInfoboxText(b) {
         }
     }
     result += "| value           = " + b.price + "\n"; //The purchase value
-    result += "| scrapvalue      = " + "#no-data#" + "\n"; //The value of the block when it is scrapped
-    result += "| traction        = " + "#no-data#" + "\n"; //Full / Partial / None
+
+    // Need formula for scrapvalue. Something about 1/3 price? I've not had time to check.
+    // result += "| scrapvalue      = " + "#no-data#" + "\n"; //The value of the block when it is scrapped
+    
+    // There is no block data for traction at present.
+    // result += "| traction        = " + "#no-data#" + "\n"; //Full / Partial / None
 
     result += (b.ModuleEnergyStore && b.ModuleEnergyStore.capacity) ? 
         "| energycapacity  = " + b.ModuleEnergyStore.capacity + "\n" : ""; //The highest storage capacity of a battery
