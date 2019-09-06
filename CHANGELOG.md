@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.3] - 2019-09-06
+
+### Added
+
+- Wiki code for Block Infobox + copy to clipboard button
+- GitHub icon (links to repo)
+
+### Removed
+
+- PDF & CSV export buttons (to reduce header text wrapping)
+
 ## [0.2.2] - 2019-09-05
 
 ### Added
